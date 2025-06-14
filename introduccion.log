@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.1)  14 JUN 2025 10:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.1)  14 JUN 2025 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -771,170 +771,180 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) ha
                                                   \__shipout_drop_firstpage_...
 l.598 
        <./images/geodata_exporter.jpg>]
-<images/functionality_test/load_categories_1.jpg, id=307, 578.16pt x 1284.8pt>
-File: images/functionality_test/load_categories_1.jpg Graphic file (type jpg)
-<use images/functionality_test/load_categories_1.jpg>
-Package pdftex.def Info: images/functionality_test/load_categories_1.jpg  used on input line 628.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/load_categories_2.jpg, id=308, 578.16pt x 1284.8pt>
-File: images/functionality_test/load_categories_2.jpg Graphic file (type jpg)
-<use images/functionality_test/load_categories_2.jpg>
-Package pdftex.def Info: images/functionality_test/load_categories_2.jpg  used on input line 635.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/load_categories_3.jpg, id=309, 578.16pt x 1284.8pt>
-File: images/functionality_test/load_categories_3.jpg Graphic file (type jpg)
-<use images/functionality_test/load_categories_3.jpg>
-Package pdftex.def Info: images/functionality_test/load_categories_3.jpg  used on input line 642.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
- [19]
-<images/functionality_test/geodata_view1.jpg, id=320, 578.16pt x 1284.8pt>
-File: images/functionality_test/geodata_view1.jpg Graphic file (type jpg)
-<use images/functionality_test/geodata_view1.jpg>
-Package pdftex.def Info: images/functionality_test/geodata_view1.jpg  used on input line 663.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/geodata_view2.jpg, id=321, 578.16pt x 1284.8pt>
-File: images/functionality_test/geodata_view2.jpg Graphic file (type jpg)
-<use images/functionality_test/geodata_view2.jpg>
-Package pdftex.def Info: images/functionality_test/geodata_view2.jpg  used on input line 670.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
- [20
+<images/functionality_test/caso_estudio.jpg, id=305, 652.4375pt x 428.60126pt>
+File: images/functionality_test/caso_estudio.jpg Graphic file (type jpg)
+<use images/functionality_test/caso_estudio.jpg>
+Package pdftex.def Info: images/functionality_test/caso_estudio.jpg  used on input line 607.
+(pdftex.def)             Requested size: 298.75264pt x 196.263pt.
+ [19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.675 
-      
+l.628     \item \textit
+                       {Salida esperada:} Las categorías y sus formularios ... <./images/functionality_test/caso_estudio.jpg>]
+<images/functionality_test/load_categories_1.jpg, id=315, 578.16pt x 1284.8pt>
+File: images/functionality_test/load_categories_1.jpg Graphic file (type jpg)
+<use images/functionality_test/load_categories_1.jpg>
+Package pdftex.def Info: images/functionality_test/load_categories_1.jpg  used on input line 641.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/load_categories_2.jpg, id=316, 578.16pt x 1284.8pt>
+File: images/functionality_test/load_categories_2.jpg Graphic file (type jpg)
+<use images/functionality_test/load_categories_2.jpg>
+Package pdftex.def Info: images/functionality_test/load_categories_2.jpg  used on input line 648.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/load_categories_3.jpg, id=317, 578.16pt x 1284.8pt>
+File: images/functionality_test/load_categories_3.jpg Graphic file (type jpg)
+<use images/functionality_test/load_categories_3.jpg>
+Package pdftex.def Info: images/functionality_test/load_categories_3.jpg  used on input line 655.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+ [20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.675 
+l.669 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.675 
-       <./images/functionality_test/load_categories_1.jpg> <./images/functionality_test/load_categories_2.jpg> <./images/functionality_test/load_categories_3.jpg>]
-<images/functionality_test/medias2.png, id=331, 578.16pt x 1284.8pt>
-File: images/functionality_test/medias2.png Graphic file (type png)
-<use images/functionality_test/medias2.png>
-Package pdftex.def Info: images/functionality_test/medias2.png  used on input line 691.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/medias_1.png, id=332, 578.16pt x 1284.8pt>
-File: images/functionality_test/medias_1.png Graphic file (type png)
-<use images/functionality_test/medias_1.png>
-Package pdftex.def Info: images/functionality_test/medias_1.png  used on input line 698.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/medias_3.jpg, id=333, 578.16pt x 1284.8pt>
-File: images/functionality_test/medias_3.jpg Graphic file (type jpg)
-<use images/functionality_test/medias_3.jpg>
-Package pdftex.def Info: images/functionality_test/medias_3.jpg  used on input line 705.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
- [21
+l.669 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.710 
-      
+l.669 
+       <./images/functionality_test/load_categories_1.jpg> <./images/functionality_test/load_categories_2.jpg> <./images/functionality_test/load_categories_3.jpg>]
+<images/functionality_test/geodata_view1.jpg, id=328, 578.16pt x 1284.8pt>
+File: images/functionality_test/geodata_view1.jpg Graphic file (type jpg)
+<use images/functionality_test/geodata_view1.jpg>
+Package pdftex.def Info: images/functionality_test/geodata_view1.jpg  used on input line 676.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/geodata_view2.jpg, id=329, 578.16pt x 1284.8pt>
+File: images/functionality_test/geodata_view2.jpg Graphic file (type jpg)
+<use images/functionality_test/geodata_view2.jpg>
+Package pdftex.def Info: images/functionality_test/geodata_view2.jpg  used on input line 683.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/medias2.png, id=333, 578.16pt x 1284.8pt>
+File: images/functionality_test/medias2.png Graphic file (type png)
+<use images/functionality_test/medias2.png>
+Package pdftex.def Info: images/functionality_test/medias2.png  used on input line 704.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/medias_1.png, id=334, 578.16pt x 1284.8pt>
+File: images/functionality_test/medias_1.png Graphic file (type png)
+<use images/functionality_test/medias_1.png>
+Package pdftex.def Info: images/functionality_test/medias_1.png  used on input line 711.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/medias_3.jpg, id=335, 578.16pt x 1284.8pt>
+File: images/functionality_test/medias_3.jpg Graphic file (type jpg)
+<use images/functionality_test/medias_3.jpg>
+Package pdftex.def Info: images/functionality_test/medias_3.jpg  used on input line 718.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+ [21
 pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.710 
-       <./images/functionality_test/geodata_view1.jpg> <./images/functionality_test/geodata_view2.jpg>]
-<images/functionality_test/geodata_exporter1.png, id=347, 578.16pt x 1284.8pt>
-File: images/functionality_test/geodata_exporter1.png Graphic file (type png)
-<use images/functionality_test/geodata_exporter1.png>
-Package pdftex.def Info: images/functionality_test/geodata_exporter1.png  used on input line 728.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/geodata_exporter11.png, id=348, 578.16pt x 1284.8pt>
-File: images/functionality_test/geodata_exporter11.png Graphic file (type png)
-<use images/functionality_test/geodata_exporter11.png>
-Package pdftex.def Info: images/functionality_test/geodata_exporter11.png  used on input line 735.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/geodata_exporter2.png, id=349, 578.16pt x 1284.8pt>
-File: images/functionality_test/geodata_exporter2.png Graphic file (type png)
-<use images/functionality_test/geodata_exporter2.png>
-Package pdftex.def Info: images/functionality_test/geodata_exporter2.png  used on input line 742.
-(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
- [22
+l.722 \end{figure}
+                  
 pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.747 
-      
+l.722 \end{figure}
+                   <./images/functionality_test/geodata_view1.jpg> <./images/functionality_test/geodata_view2.jpg>]
+<images/functionality_test/geodata_exporter1.png, id=349, 578.16pt x 1284.8pt>
+File: images/functionality_test/geodata_exporter1.png Graphic file (type png)
+<use images/functionality_test/geodata_exporter1.png>
+Package pdftex.def Info: images/functionality_test/geodata_exporter1.png  used on input line 741.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/geodata_exporter11.png, id=350, 578.16pt x 1284.8pt>
+File: images/functionality_test/geodata_exporter11.png Graphic file (type png)
+<use images/functionality_test/geodata_exporter11.png>
+Package pdftex.def Info: images/functionality_test/geodata_exporter11.png  used on input line 748.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+<images/functionality_test/geodata_exporter2.png, id=351, 578.16pt x 1284.8pt>
+File: images/functionality_test/geodata_exporter2.png Graphic file (type png)
+<use images/functionality_test/geodata_exporter2.png>
+Package pdftex.def Info: images/functionality_test/geodata_exporter2.png  used on input line 755.
+(pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
+ [22
 pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.747 
+l.760 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.747 
-       <./images/functionality_test/medias2.png> <./images/functionality_test/medias_1.png> <./images/functionality_test/medias_3.jpg>]
-<images/functionality_test/excel.jpg, id=359, 1145.4795pt x 545.03625pt>
-File: images/functionality_test/excel.jpg Graphic file (type jpg)
-<use images/functionality_test/excel.jpg>
-Package pdftex.def Info: images/functionality_test/excel.jpg  used on input line 750.
-(pdftex.def)             Requested size: 298.75264pt x 142.14685pt.
-<images/functionality_test/folder_medias.jpg, id=360, 483.0045pt x 148.75575pt>
-File: images/functionality_test/folder_medias.jpg Graphic file (type jpg)
-<use images/functionality_test/folder_medias.jpg>
-Package pdftex.def Info: images/functionality_test/folder_medias.jpg  used on input line 757.
-(pdftex.def)             Requested size: 298.75264pt x 92.00969pt.
- [23
+l.760 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.767 
-      
+l.760 
+       <./images/functionality_test/medias2.png> <./images/functionality_test/medias_1.png> <./images/functionality_test/medias_3.jpg>]
+<images/functionality_test/excel.jpg, id=362, 1145.4795pt x 545.03625pt>
+File: images/functionality_test/excel.jpg Graphic file (type jpg)
+<use images/functionality_test/excel.jpg>
+Package pdftex.def Info: images/functionality_test/excel.jpg  used on input line 763.
+(pdftex.def)             Requested size: 298.75264pt x 142.14685pt.
+<images/functionality_test/folder_medias.jpg, id=363, 483.0045pt x 148.75575pt>
+File: images/functionality_test/folder_medias.jpg Graphic file (type jpg)
+<use images/functionality_test/folder_medias.jpg>
+Package pdftex.def Info: images/functionality_test/folder_medias.jpg  used on input line 770.
+(pdftex.def)             Requested size: 298.75264pt x 92.00969pt.
+ [23
 pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.767 
+l.780 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.767 
+l.780 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.767 
+l.780 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.767 
+l.780 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.780 
        <./images/functionality_test/geodata_exporter1.png> <./images/functionality_test/geodata_exporter11.png> <./images/functionality_test/geodata_exporter2.png> <./images/functionality_test/excel.jpg> <./images/functionality_test/folder_medias.jpg>]
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 793.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 806.
  (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 793.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 806.
  (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 793.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 806.
  (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 793.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 806.
  (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 793.
+(Font)              <10> on input line 806.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 793.
+(Font)              <7> on input line 806.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 793.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 793.
+(Font)              <5> on input line 806.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 806.
  (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 793.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 806.
  (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
@@ -948,17 +958,17 @@ Package rerunfilecheck Info: File `introduccion.out' has not changed.
 (rerunfilecheck)             Checksum: 537F5AC054635C93A914BAF95523F10B;5621.
  ) 
 Here is how much of TeX's memory you used:
- 13317 strings out of 474312
- 216551 string characters out of 5740702
+ 13326 strings out of 474312
+ 216919 string characters out of 5740702
  1943907 words of memory out of 5000000
- 35310 multiletter control sequences out of 15000+600000
+ 35318 multiletter control sequences out of 15000+600000
  600981 words of font info for 147 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,1951b,567s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-Output written on introduccion.pdf (25 pages, 2237715 bytes).
+Output written on introduccion.pdf (25 pages, 2283004 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 22942 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 445 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
+ 22947 words of extra memory for PDF output out of 24883 (max. 10000000)
 

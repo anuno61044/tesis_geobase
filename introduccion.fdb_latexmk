@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1749911314.37354 "c:/Users/Al/Documents/UH/tesis/geobase_tesis/reporte/New folder/introduccion.tex" "introduccion.pdf" "introduccion" 1749911316.65947 0
+["pdflatex"] 1749927727.12955 "c:/Users/Al/Documents/UH/tesis/geobase_tesis/reporte/New folder/introduccion.tex" "introduccion.pdf" "introduccion" 1749927733.52608 0
   "C:/Users/Al/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747372562 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Al/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1717217247 24242555 ddb0eb82cbf291bd912762784fd8a840 ""
   "C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -105,7 +105,7 @@
   "C:/Users/Al/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/Al/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Al/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Al/Documents/UH/tesis/geobase_tesis/reporte/New folder/introduccion.tex" 1749911044 75699 e51f2c78dcebff27b583b32166c96980 ""
+  "c:/Users/Al/Documents/UH/tesis/geobase_tesis/reporte/New folder/introduccion.tex" 1749927622 77418 98db75aae2af70c803ccd435a06e3547 ""
   "images/FieldMapsSmartForms.png" 1748523833 54130 e15fc3bd0044bb602b81ae503e371e22 ""
   "images/arcgis_logo.png" 1748524160 204700 0a2c5e361b566fe771b4c78fa6bebe3f ""
   "images/category_importer.jpg" 1749822492 26283 327decafecc56bd81499206d359e258a ""
@@ -124,6 +124,7 @@
   "images/form_page.jpg" 1749664320 17700 0e2c8882c73f1d9bb4ed6b7837bdb30e ""
   "images/form_post_model.jpg" 1749746556 22757 0c03e1a5d9be2212f81e402830a5acc4 ""
   "images/form_provider.jpg" 1749747104 19893 9d22c69307805540c631034767e501d2 ""
+  "images/functionality_test/caso_estudio.jpg" 1749927724 43453 45f2a601c291c30ebbd5e335f1a8ae97 ""
   "images/functionality_test/excel.jpg" 1749903666 215304 479b98da252a1301ea22222a0f8d3e65 ""
   "images/functionality_test/folder_medias.jpg" 1749911313 46624 1f9bafd32991c5388026b099274168a5 ""
   "images/functionality_test/geodata_exporter1.png" 1749902898 57451 3a37325931230dd06d03be823271e034 ""
@@ -147,9 +148,9 @@
   "images/mergin_maps.jpeg" 1748528070 5995 3609b72a9ee1c6432c3b752391298744 ""
   "images/new_merx.png" 1749647428 91461 0be86b313c2a340cb3604b3ae859e33b ""
   "images/old_merx.jpg" 1749647305 69427 58de59c89da295e28eee3695a96c7015 ""
-  "introduccion.aux" 1749911316 15584 3f01b0aaf0b45b40e86c6d5c25923ff7 "pdflatex"
-  "introduccion.out" 1749911316 5621 537f5ac054635c93a914baf95523f10b "pdflatex"
-  "introduccion.tex" 1749911044 75699 e51f2c78dcebff27b583b32166c96980 ""
+  "introduccion.aux" 1749927732 15910 116a3fc9d7682f12072e81895031824e "pdflatex"
+  "introduccion.out" 1749927732 5621 537f5ac054635c93a914baf95523f10b "pdflatex"
+  "introduccion.tex" 1749927622 77418 98db75aae2af70c803ccd435a06e3547 ""
   (generated)
   "introduccion.aux"
   "introduccion.log"

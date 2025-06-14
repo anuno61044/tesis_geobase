@@ -596,6 +596,19 @@ El caso de estudio se centra en la recopilación de datos en campo realizada por
 
 La problemática principal radica en la complejidad de gestionar datos heterogéneos y estructurados, como los relacionados con postes eléctricos y transformadores, organizados en categorías y subcategorías específicas (por ejemplo, “Datos generales”, “Estado” y “Acciones requeridas”). Además, la inclusión de datos multimedia —fotos, videos y notas de voz— resulta fundamental para documentar daños y condiciones en terreno. La aplicación debe además permitir la georreferenciación precisa de cada punto registrado y facilitar la exportación de la información para su posterior análisis mediante algoritmos de optimización de rutas, con el fin de priorizar reparaciones urgentes y reducir tiempos y costos.
 
+La figura~\ref{fig:casoestudio} ilustra un modelo de entidades y sus relaciones para realizar pruebas a las nuevas funcionalidades implementadas. En este modelo, el \textit{Poste de luz} constituye la entidad principal, permitiendo registrar atributos esenciales como la altura y el material del poste. Cada poste puede estar asociado a uno o varios transformadores, reflejando la realidad operativa donde un mismo soporte físico puede albergar distintos equipos eléctricos.
+
+La entidad \textit{Transformador} almacena información específica de cada equipo, incluyendo un código identificador, que puede ser capturado mediante un código QR para agilizar la trazabilidad en campo, y registros de audio que documentan el nivel de ruido, útil para diagnóstico preventivo. Además, cada transformador puede tener múltiples registros de \textit{Mantenimiento}, lo que permite llevar un historial detallado de las intervenciones técnicas realizadas a lo largo del tiempo.
+
+Cada registro de mantenimiento vinculado a un transformador contiene datos como la fecha de la intervención, archivos multimedia (video e imagen) que evidencian el estado del equipo, y la factura correspondiente al servicio realizado. Esta estructura jerárquica y anidada facilita la organización, consulta y análisis de la información recolectada, asegurando la trazabilidad de cada elemento de la infraestructura eléctrica y optimizando los procesos de mantenimiento en zonas rurales.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.7\textwidth]{images/functionality_test/caso_estudio.jpg}
+  \caption{MERX del las entidades para probar las funcionalidades acorde al caso de estudio}
+  \label{fig:casoestudio}
+\end{figure}
+
 Para llevar a cabo las pruebas funcionales, se utilizó un dispositivo móvil con las siguientes características técnicas:
 
 \begin{itemize}
