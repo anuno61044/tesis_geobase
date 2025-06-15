@@ -75,23 +75,29 @@
 }
 
 
-% Comando para la portada
-\newcommand{\portada}[5]{ % #1=Título, #2=Autor, #3=Tutor, #4=Título académico, #5=Fecha
+\newcommand{\portada}[5]{
   \begin{titlepage}
+    % Cabecera
     \begin{center}
-      % Parte superior
       {\normalsize FACULTAD DE MATEMÁTICA Y COMPUTACIÓN} \\
-      {\normalsize UNIVERSIDAD DE LA HABANA} \\
-      \vspace{1cm}
+      {\normalsize UNIVERSIDAD DE LA HABANA}
+    \end{center}
+    
+    % Contenido central con espacio flexible
+    \vspace*{\fill} % Espacio flexible arriba
+    
+    \begin{center}
       \includegraphics[width=0.3\textwidth]{images/uhlogo.png} \\
       \vspace{2cm}
-      
-      % Título
       {\LARGE \textbf{#1}} \\
-      \vspace{2cm}
-      
-      % Autor y tutor
-      \begin{tabular}{l l}
+    \end{center}
+    
+    \vspace*{2cm} % Espacio flexible abajo
+    
+    % Pie fijo
+    \begin{center}
+       % Autor y tutor
+       \begin{tabular}{l l}
         \textbf{Autor:} & #2 \\
         \textbf{Tutor:} & #3 \\
       \end{tabular}
@@ -101,7 +107,7 @@
       \textbf{TRABAJO DE DIPLOMA} \\
       Presentado en opción al título de \\
       \textbf{#4} \\
-      \vfill
+      \vspace{1cm}
       #5 % Fecha
     \end{center}
   \end{titlepage}
@@ -207,13 +213,13 @@
     \item A todos los excelentes profesores de la facultad que a lo largo de estos 4 años me han instruido y me han hecho ver todo un mundo nuevo de conocimientos.
     \item A mi familia, que a pesar de estar lejos, siempre los he sentido muy cerca y presente, los amo demasiado.
     \item Tuve la dicha de compartir en mi año con personas muy talentosas no solo en el ámbito de las ciencias, las cuales siempre me impulsaron a mejorar. 
-    \item Entre las bendiciones que Dios nos da a todos está poner en nuestro camino personas que no solo son amistades, sino que son como hermanos, personas que nos edifican espiritualmente. Estoy muy agradecido con Dios por haber compartido con el grupo cristiano universitario (GCU), son verdaderamente sal y luz en un contexto cada vez más complicado y hostil.
     \item Un agradecimiento especial a ``los calaveras'', juntos tiramos código de madrugada y minutos antes de la hora de entrega. Va por ustedes:
     \begin{figure}[H]
       \centering
       \includegraphics[width=0.3\textwidth]{images/meme-calaveras.jpg}
       \label{fig:skull}
-    \end{figure} 
+    \end{figure}
+    \item Entre las bendiciones que Dios nos da a todos está poner en nuestro camino personas que no solo son amistades, sino que son como hermanos, personas que nos edifican espiritualmente. Estoy muy agradecido con Dios por haber compartido con el grupo cristiano universitario (GCU), son verdaderamente sal y luz en un contexto cada vez más complicado y hostil. 
     \item No podía faltar el GCU de Bahía, tanto los que se fueron como los que están en este momento, aprendí y me divertí mucho con ustedes, sobre todo en los tiempo de ciclón y apagón general, convierten esos momentos terribles en tiempos que me gustaría volver a vivir junto a ellos (Rosalia, Kevin, Felipe, Héctor, Jonathan, Yandris, Magniel, Aser, Thalia, Lia, Liannis, Susanna, Daniel, Armin, Roxana, Neidys, Yaneyra, Jorgito, Dayron, Yan Carlos, William). En especial me siento muy agradecido por haber conocido a dos personitas: Dayanis, una prestigiosa meteoróloga tunera que no le gusta coger sol, y a una guantanamera que no se le acaban las pilas, nos conocimos en un ciclón y desde entonces hemos pasado muchos ciclones juntos, y espero pasar muchos más contigo.
   \end{itemize}
   
