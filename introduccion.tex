@@ -1,11 +1,21 @@
-\documentclass{article}
+\documentclass[12pt, a4paper]{book}
 \usepackage{geometry}
 \geometry{a4paper, left=3cm, right=3cm, top=2cm, bottom=2cm} % Ajusta estos valores según necesites
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
+\usepackage[spanish]{babel}
 \usepackage{fixltx2e}
 \usepackage{graphicx}
+\usepackage{titlesec}
+
+\titleformat{\chapter}[display]
+  {\normalfont\Large\bfseries\centering}
+  {\chaptername\ \thechapter}
+  {20pt}
+  {\Huge}
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
@@ -41,12 +51,204 @@
 \def\fps@figure{htbp}
 \makeatother
 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Limpia todos los encabezados y pies de página
+
+% Configuración de encabezados
+\fancyhead[LE]{\small\thepage} % Número de página a la izquierda (páginas pares)
+\fancyhead[RO]{\small\thepage} % Número de página a la derecha (páginas impares)
+\fancyhead[RE,LO]{\small\chaptername\ \thechapter. \leftmark} % "Capítulo X. Título"
+
+% Línea divisoria
+\renewcommand{\headrulewidth}{0.4pt} % Grosor de la línea
+\renewcommand{\headrule}{\hrule width\headwidth height\headrulewidth \vskip-\headrulewidth}
+
+% Formateo de los títulos de capítulos
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}} % Elimina "Capítulo X" del encabezado
+
+% Estilo para páginas de inicio de capítulo (sin encabezado excepto número de página)
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyfoot[C]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+
+% Comando para la portada
+\newcommand{\portada}[5]{ % #1=Título, #2=Autor, #3=Tutor, #4=Título académico, #5=Fecha
+  \begin{titlepage}
+    \begin{center}
+      % Parte superior
+      {\normalsize FACULTAD DE MATEMÁTICA Y COMPUTACIÓN} \\
+      {\normalsize UNIVERSIDAD DE LA HABANA} \\
+      \vspace{1cm}
+      \includegraphics[width=0.3\textwidth]{images/uhlogo.png} \\
+      \vspace{2cm}
+      
+      % Título
+      {\LARGE \textbf{#1}} \\
+      \vspace{2cm}
+      
+      % Autor y tutor
+      \begin{tabular}{l l}
+        \textbf{Autor:} & #2 \\
+        \textbf{Tutor:} & #3 \\
+      \end{tabular}
+      \vspace{2cm}
+      
+      % Pie de portada
+      \textbf{TRABAJO DE DIPLOMA} \\
+      Presentado en opción al título de \\
+      \textbf{#4} \\
+      \vfill
+      #5 % Fecha
+    \end{center}
+  \end{titlepage}
+}
+
+
+
+% En el preámbulo (antes de \begin{document})
+\newenvironment{opiniontutor}
+{
+  \cleardoublepage
+  \thispagestyle{empty}
+  \begin{center}
+    {\LARGE\bfseries OPINIÓN DEL TUTOR} \\[1.5cm] % Título grande
+  \end{center}
+  \setlength{\parskip}{1em} % Espacio entre párrafos
+}
+{
+  \vspace{3cm} % Espacio para firma
+  \begin{flushright}
+    \includegraphics[width=6cm]{images/firma_tutor.png} \\ % Ajusta el ancho y la ruta
+    \vspace{0.5cm} % Espacio entre firma y texto
+    \textbf{MSc. Joanna Campbell Amos} \\
+    \textbf{Facultad de Matemática y Computación} \\
+    \textbf{Universidad de La Habana}
+  \end{flushright}
+}
+
+% En el preámbulo (antes de \begin{document})
+\newenvironment{agradecimientos}{
+  \clearpage % Usa \clearpage en lugar de \cleardoublepage
+  \thispagestyle{empty} % Página sin número
+  \begin{center}
+    {\LARGE\bfseries AGRADECIMIENTOS} \\[1.5cm]
+  \end{center}
+  \setlength{\parindent}{0pt} % Sin sangría
+  \setlength{\parskip}{1em} % Espacio entre párrafos
+}{
+  \vspace*{\fill} % Espacio flexible hasta el final
+  \newpage % Opcional: si quieres asegurar nueva página después
+}
+
+% En el preámbulo (antes de \begin{document})
+\newenvironment{resumentesis}[1]{ % #1 = título del trabajo
+  \clearpage
+  \thispagestyle{empty}
+  \begin{center}
+    {\LARGE\bfseries RESUMEN} \\[1.5cm]
+  \end{center}
+  \setlength{\parskip}{1em} % Espacio entre párrafos
+}{
+  \vspace{1cm}
+  \noindent
+  \textbf{Palabras clave:} \\[0.3cm]
+  \hspace*{1.5cm} % Sangría para las palabras clave
+  \begin{minipage}{0.8\textwidth}
+    \textit{GeoBase, aplicación móvil, recopilación de datos, formulario, multimedia}
+  \end{minipage}
+  \newpage
+}
+
+% En el preámbulo (antes de \begin{document})
+\newenvironment{abstractpage}[1]{ % #1 = título del trabajo en inglés
+  \clearpage
+  \thispagestyle{empty}
+  \selectlanguage{english} % Cambia temporalmente a inglés
+  \begin{center}
+    {\LARGE\bfseries ABSTRACT} \\[1.5cm]
+  \end{center}
+  \setlength{\parskip}{1em} % Espacio entre párrafos
+}{
+  \vspace{1cm}
+  \noindent
+  \textbf{Keywords:} \\[0.3cm]
+  \hspace*{1.5cm} % Sangría para las palabras clave
+  \begin{minipage}{0.8\textwidth}
+    \textit{GeoBase, mobile application, data collection, form, multimedia}
+  \end{minipage}
+  \selectlanguage{spanish} % Vuelve al español
+  \newpage
+}
+
+
+\let\cleardoublepage\clearpage % Elimina páginas en blanco
 
 \date{}
 
 \begin{document}
 
-\section{Introducción}\label{introducciuxf3n}
+\portada
+  {Geobase 2.0: Soporte a formularios dinámicos anidados} % Título
+  {Alfredo Nuño Oquendo}                % Autor
+  {MSc. Joanna Campbell Amos}           % Tutor
+  {Licenciado en Ciencias de la Computación} % Título académico
+  {La Habana, \today}                       % Fecha
+
+\begin{agradecimientos}
+  Deseo expresar mi más sincero agradecimiento a:
+  
+  \begin{itemize}
+  \item Mi tutor(a), MSc. Joanna Campbell Amos, por su guía constante...
+  \item Al Departamento de Matemática y Computación...
+  \item A mi familia por su apoyo incondicional...
+  \item A mis compañeros de estudio...
+  \end{itemize}
+  
+  Su apoyo ha sido fundamental para la realización de este trabajo.
+  \end{agradecimientos}
+
+\begin{opiniontutor}
+  El trabajo presentado como tesis de culminación de estudios de licenciatura por la estudiante Alfredo Nuño Oquendo  constituye un ejemplo de la aplicación de conocimientos y habilidades adquiridas durante sus años de estudio, combinados con la utilización de su capacidad de investigación para la generación de ideas, asimilación de tecnologías y creación de soluciones al problema planteado.
+
+  Para cumplir con los objetivos propuestos, realizó una ardua labor investigativa en temas totalmente nuevos para él, relacionados con las tecnologías presentes en los dispositivos móviles actuales y con la amplia temática de los Sistemas de Información Geográfica.
+
+  Este esfuerzo se materializa en lo expuesto en los Capítulos 1 y 2, donde recoge el estado del arte relacionado con los objetivos de este trabajo de diploma, tanto desde el punto de vista teórico-conceptual como tecnológico y en el Capítulo 3, propone e implementa  una solución teórico- computacional  para solucionar su problemática haciendo uso de la tecnología asimilada. Independencia, dedicación, perseverancia, profesionalidad, capacidad e iniciativa son algunos de los calificativos que merece la labor de Alfredo.
+
+  El trabajo que Alfredo presenta hoy en su ejercicio de fin de carrera es el resultado de un año  de arduo trabajo, que contra todo pronóstico, adversidades se pudo llevar a término.  Como tutora estoy satisfecha con el trabajo desarrollado aunque quedaron cosas por hacer  y mejorar. Considero que desde el punto de vista académico, satisface los requerimientos de una tesis de licenciatura y cumple con los objetivos que nos trazamos para la misma al inicio de esta etapa.
+
+  Por todo lo anterior propongo al tribunal que se le otorgue la calificación de Excelente (5).
+
+\end{opiniontutor}
+
+% Después de portada y antes de índices
+\begin{resumentesis}
+  
+  GeoBase es una aplicación móvil cartográfica desarrollada por la Casa del Software de la Facultad de Matemática y Computación de la Universidad de La Habana, que permite recopilar información asociada a ubicaciones específicas mediante formularios dinámicos configurados por el usuario. En este trabajo se presenta una mejora a GeoBase con la incorporación de nuevas funcionalidades en su capacidad de recolección de datos en campo. Se destacan la incorporación de formularios anidados, que permiten una captura de información más detallada y estructurada, la incorporación de archivos multimedia, y la adaptación de la aplicación para facilitar la recopilación de datos que tributen directamente a la resolución de problemas de optimización, como el diseño de recorridos eficientes. 
+
+  Mediante el caso de uso que consiste en la recopilación de datos en campo de la empresa eléctrica, se evidenció la utilidad de esta nueva versión de GeoBase ya que se hizo necesario el empleo de los formularios anidados (organizados en categorías como “Postes eléctricos” y subcategorías como “Transformadores”, entre otras) y datos multimedia (fotos, videos, notas de voz) para documentar daños. La aplicación georreferencia cada punto y exporta la información que será utilizada en un algoritmo de optimización de rutas, lo cual permitirá priorizar reparaciones urgentes y minimizar tiempos y costos. Esto mejorará la eficiencia del mantenimiento y el suministro eléctrico en las comunidades.
+
+\end{resumentesis}
+
+
+\begin{abstractpage}
+  
+  GeoBase is a mobile cartographic application developed by the Software House of the Faculty of Mathematics and Computer Science at the University of Havana. It allows the collection of information associated with specific locations through user-configured dynamic forms. This work presents an enhancement to GeoBase by incorporating new functionalities to improve its field data collection capabilities. Notable improvements include the addition of nested forms, which enable more detailed and structured information capture, the integration of multimedia files, and the adaptation of the application to facilitate data collection that directly contributes to solving optimization problems, such as designing efficient routes.
+
+  Through the use case involving field data collection for an electric company, the usefulness of this new version of GeoBase was demonstrated. The need arose to employ nested forms (organized into categories such as “Electric Poles” and subcategories like “Transformers,” among others) and multimedia data (photos, videos, voice notes) to document damages. The application georeferences each point and exports the information to be used in a route optimization algorithm, which will allow prioritizing urgent repairs and minimizing time and costs. This will enhance the efficiency of maintenance and electrical supply in the communities.
+
+  \end{abstractpage}
+
+% Tabla de contenido (índice)
+\tableofcontents
+
+% Lista de figuras (opcional)
+\listoffigures
+
+\chapter{Introducción}
 
 El manejo de la información geográfica es una disciplina fundamental en la actualidad, dada su relevancia para la localización, el análisis espacial y la toma de decisiones en diversos ámbitos. Los Sistemas de Información Geográfica (SIG o GIS por sus siglas en inglés \cite{sarria2020}) han evolucionado significativamente, integrando datos espaciales con información socioeconómica y ambiental, lo que ha permitido abordar problemas complejos con mayor precisión y eficacia. Esta evolución ha sido impulsada por el desarrollo tecnológico, especialmente con la expansión de las aplicaciones móviles, que han facilitado la captura y gestión de datos georreferenciados directamente en el campo.
 
@@ -54,7 +256,7 @@ Las aplicaciones móviles basadas en mapas se han convertido en herramientas ese
 
 En este contexto, la evolución de los SIG ha estado marcada por la transición desde sistemas estáticos y centralizados hacia plataformas móviles y dinámicas que permiten la interacción en tiempo real con la información geográfica. Esta transformación ha abierto nuevas oportunidades para mejorar la eficiencia y calidad del levantamiento de datos en campo, así como para facilitar su análisis y aplicación en la resolución de problemáticas territoriales, sociales y ambientales. La presente investigación se enmarca en esta línea de desarrollo, enfocándose en la mejora de una aplicación móvil cartográfica para optimizar la captura y gestión de datos georreferenciados mediante formularios anidados \cite{ceri1984}, validación dinámica y soporte multimedia.
 
-\subsection{Antecedentes del problema
+\section{Antecedentes del problema
 científico}\label{antecedentes-del-problema-cientuxedfico}
 La Casa del Software de la Facultad de Matemática y Computación de la Universidad de La Habana desarrolló diversas soluciones en el ámbito de los Sistemas de Información Geográfica (SIG), destacándose proyectos como OpenLatino GIS y varias tesis orientadas a aplicaciones móviles para la captura y gestión de datos espaciales. Entre estas investigaciones previas se encuentra la tesis ``Aplicaciones móviles  para la recogida y notificación de datos en campo sobre las propiedades de Managua, Nicaragua'' de Sheyla Cruz Castro \cite{castro2018}, que propuso dos aplicaciones móviles (Encuestador y Notificador). Estas aplicaciones permiten registrar información asociada a propiedades utilizando formularios sobre una cartografía offline, con datos iniciales proporcionados por un servicio externo. Aunque ofrecen funcionalidades básicas de captura y notificación, su estructura de formularios es estática y carecen de flexibilidad para adaptarse a diferentes escenarios o necesidades de levantamiento en campo, además de que el soporte multimedia se limita a imágenes. También encontramos la tesis ``NTCollector: aplicación móvil para manejo de redes geográficas con formularios dinámicos'' de Abraham González Rivero \cite{rivero2019}, la cual presentó la aplicación NTCollector, diseñada para el manejo de redes geográficas y la recolección de datos mediante formularios dinámicos en campo. NTCollector permite la configuración de formularios y la visualización de datos sobre mapas, pero su modelo de persistencia se basa en archivos JSON y no en una base de datos robusta, lo que limita la escalabilidad y gestión eficiente de grandes volúmenes de datos. Además, la aplicación no contempla el manejo avanzado de multimedia, y su integración con mapas offline y online depende de configuraciones externas.
 
@@ -62,7 +264,7 @@ GeoBase, en su versión inicial, fue diseñada para permitir la captura de infor
 
 A pesar de las ventajas que ofrece la versión inicial de GeoBase, esta presenta varias limitaciones que motivan su evolución. Entre ellas se encuentra la falta de soporte para el manejo de tipos de medios como video, QR y audio, lo que restringe la capacidad de enriquecer la información recolectada en campo. Además, no cuenta con mecanismos integrados para exportar los puntos guardados a diferentes formatos, limitando la interoperabilidad y el análisis externo de los datos. La aplicación tampoco permite recibir un conjunto de puntos, mostrarlos en el mapa y completar su información, lo cual retrasa el proceso de llenado de datos cuando ya se sabe toda la información geográfica de los puntos. Otro aspecto pendiente es la serialización de los metadatos de las categorías con sus columnas, necesaria para cargar configuraciones de formularios de manera eficiente, optimizando el proceso de crear categorías que ya existen en otros dispositivos. Asimismo, GeoBase no implementa formularios anidados, lo que limita la captura de información jerárquica o dependiente, ni dispone de mecanismos de búsqueda para facilitar la localización rápida de datos dentro de la aplicación. Finalmente, la versión inicial carece de validación dinámica de campos en los formularios, es decir, no permite que el usuario defina reglas o restricciones específicas para cada campo, lo que podría mejorar la calidad y coherencia de los datos recolectados. Estas carencias evidencian la necesidad de desarrollar nuevas funcionalidades que amplíen la flexibilidad, usabilidad y capacidad de gestión de GeoBase para responder mejor a las demandas actuales del trabajo de campo y la gestión eficiente de la información espacial.
 
-\subsection{Presentación de la
+\section{Presentación de la
 problemática}\label{presentaciuxf3n-de-la-problemuxe1tica}
 
 El problema central que aborda este trabajo es la necesidad de extender las funcionalidades de GeoBase para soportar formularios anidados y estructuras complejas, que permitan una captura más detallada y organizada de la información. También, se requiere implementar exportación de la información recolectada a distintos formatos (Excel, JSON, etc), lo que facilita su integración con otros sistemas y herramientas de análisis, y de las categorías no solo exportar su información en formato JSON, sino también cargarla, para optimizar el trabajo. La inclusión de soporte para nuevos tipos de campos en los formularios, como video, audio y QR es también una necesidad para documentar con mayor riqueza los puntos de interés. Estas mejoras son especialmente relevantes en contextos como la gestión de infraestructuras eléctricas en zonas rurales, donde la precisión y rapidez en la recolección y análisis de datos impactan directamente en la eficiencia del mantenimiento y la calidad del servicio.
@@ -73,7 +275,7 @@ El campo de acción abarca las aplicaciones móviles para la recolección y gest
 
 En este punto es válido preguntarnos: ¿Cómo desarrollar una aplicación móvil capaz de manejar datos georreferenciados mediante formularios dinámicos y anidados, que incluya soporte para tipos de medios como video, QR y audio, y que además facilite la recolección, visualización y análisis de información en campo? ¿Cómo implementar mecanismos eficientes para la exportación de datos en múltiples formatos y la serialización y carga de configuraciones de categorías y formularios?
 
-\subsection{Motivación y
+\section{Motivación y
 justificación}\label{motivaciuxf3n-y-justificaciuxf3n}
 
 La integración de tecnologías móviles y SIG es una tendencia clave para la gestión eficiente de datos geoespaciales. La capacidad de generar formularios dinámicos y anidados, junto con la incorporación de medios multimedia permite obtener una información más completa y confiable. Esta información, a su vez, puede ser utilizada en algoritmos de optimización para resolver problemas prácticos como la planificación de rutas eficientes, priorización de tareas y reducción de costos operativos.
@@ -82,7 +284,7 @@ La mejora de GeoBase se enmarca en este contexto, buscando ofrecer una herramien
 
 Desde el punto de vista personal, cuento con la formación y los conocimientos necesarios para abordar este proyecto, adquiridos a lo largo de la carrera y mediante el análisis de aplicaciones previas que sirven de base para el desarrollo de las nuevas funcionalidades de GeoBase. Además, la participación en foros de Flutter y la asesoría directa del desarrollador original de GeoBase me han permitido profundizar en las mejores prácticas y soluciones técnicas, asegurando la viabilidad y calidad de la implementación propuesta.
 
-\subsection{Objetivos}\label{objetivos}
+\section{Objetivos}\label{objetivos}
 
 El objetivo general de este trabajo es extender las funcionalidades de GeoBase para soportar formularios dinámicos anidados, exportar y cargar configuraciones de categorías en formato JSON, incluir soporte para tipos de medios de video, audio y QR e implementar exportación de los datos recolectados a formato Excel.
 
@@ -91,7 +293,7 @@ El objetivo general de este trabajo es extender las funcionalidades de GeoBase p
     \item Extender la base de datos para soportar formularios dinámicos con múltiples instancias anidadas y estructuras jerárquicas.
     \item Implementar un mecanismo eficiente para la exportación de la información recolectada, incluyendo la generación de archivos en formato Excel.
     \item Ampliar el soporte multimedia en los formularios, integrando video, audio, imágenes y códigos QR.
-    \item Mejorar la interfaz de usuario mediante widgets especializados que faciliten la creación, edición y gestión de formularios complejos en tiempo de ejecución.
+    \item Mejorar la interfaz de usuario mediante widgets especializados que faciliten la creación y eliminación de formularios complejos en tiempo de ejecución.
     \item Documentar detalladamente el proceso de desarrollo e integración de las nuevas funcionalidades, y evaluar su impacto en la eficiencia y usabilidad del flujo de trabajo en campo.
 \end{itemize}
 
@@ -104,7 +306,7 @@ El objetivo general de este trabajo es extender las funcionalidades de GeoBase p
     \item Apoyar la toma de decisiones basada en información georreferenciada precisa y enriquecida con medios multimedia.
 \end{itemize}
 
-\subsection{Estructuración del
+\section{Estructuración del
 trabajo}\label{estructuraciuxf3n-del-trabajo}
 
 La tesis se organiza en seis capítulos principales:
@@ -127,8 +329,7 @@ La tesis se organiza en seis capítulos principales:
   \textbf{Conclusiones y recomendaciones:} Resume los principales
   hallazgos, limitaciones y posibles líneas futuras de trabajo.
 \item
-  \textbf{Referencias y anexos:} Incluye la bibliografía utilizada y
-  materiales complementarios relevantes.
+  \textbf{Bibliografía} Incluye la bibliografía utilizada.
 \end{enumerate}
 
 
@@ -145,13 +346,13 @@ La tesis se organiza en seis capítulos principales:
 
 
 
-\section{Estado del arte}\label{estadodelarte}
+\chapter{Estado del arte}\label{estadodelarte}
 
 En este capítulo, tras una revisión exhaustiva del panorama actual, se analizan algunas de las aplicaciones móviles que hoy en día ofrecen funcionalidades similares a las que se propone incorporar en la aplicación objeto de esta tesis. Este análisis permite identificar tanto las capacidades existentes en el sector de las aplicaciones SIG móviles como las limitaciones que presentan respecto a los nuevos requerimientos planteados.
 
-\subsection{Aplicaciones con funcionalidades similares}
+\section{Aplicaciones con funcionalidades similares}
 
-\subsubsection{ArcGIS Field Maps}
+\subsection{ArcGIS Field Maps}
 
 ArcGIS Field Maps \cite{esriFieldMaps} es una aplicación móvil todo en uno desarrollada por Esri que permite a los usuarios recopilar datos en campo, visualizar mapas y compartir ubicaciones en tiempo real desde un único entorno integrado. Está disponible para dispositivos Android, iOS y watchOS, y se integra plenamente con la plataforma ArcGIS Online, facilitando la sincronización de datos y la gestión centralizada.
 
@@ -195,7 +396,7 @@ ArcGIS Field Maps \cite{esriFieldMaps} es una aplicación móvil todo en uno des
   \item \textbf{Independencia tecnológica:} Está fuertemente vinculado al ecosistema Esri y requiere licencias específicas, lo que puede limitar su adopción en entornos que buscan soluciones más abiertas o personalizables. La integración con sistemas externos no basados en ArcGIS es compleja.
 \end{itemize}
 
-\subsubsection{Mergin Maps}
+\subsection{Mergin Maps}
 
 Mergin Maps \cite{merginmapsdocs} es una aplicación móvil de código abierto diseñada para la recolección y edición de datos geoespaciales en campo, con una integración nativa y fluida con QGIS \cite{qgisdocs}, uno de los sistemas de información geográfica (SIG) más utilizados en el mundo. Su interfaz intuitiva y simplificada permite que usuarios con poca experiencia en SIG puedan comenzar a recopilar y editar datos rápidamente, facilitando la adopción en equipos diversos.
 
@@ -243,7 +444,7 @@ Mergin Maps \cite{merginmapsdocs} es una aplicación móvil de código abierto d
   \item \textbf{Dependencia de QGIS para configuración:} Requiere conocimientos técnicos y manejo de QGIS para diseñar y ajustar formularios y proyectos, lo que puede ser una barrera para usuarios sin experiencia en SIG. La curva de aprendizaje para configuraciones avanzadas es pronunciada.
 \end{itemize}
 
-\subsubsection{GIS Cloud Mobile Data Collection}
+\subsection{GIS Cloud Mobile Data Collection}
 
 GIS Cloud Mobile Data Collection \cite{giscloudhow} es una aplicación móvil disponible para Android e iOS que permite la captura y actualización de datos georreferenciados en campo, con la capacidad de trabajar tanto en línea como offline. La plataforma GIS Cloud, de la cual forma parte esta app, fue lanzada en 2010, siendo pionera en soluciones GIS basadas en la nube.
 
@@ -291,7 +492,7 @@ GIS Cloud Mobile Data Collection \cite{giscloudhow} es una aplicación móvil di
 \item \textbf{Dependencia de plataforma en la nube:} El funcionamiento óptimo y la gestión de datos dependen de la plataforma GIS Cloud, lo que puede limitar la independencia tecnológica y la personalización en entornos con restricciones de conectividad o políticas de datos.
 \end{itemize}
 
-\subsection{Conclusiones de las aplicaciones presentadas}
+\section{Conclusiones de las aplicaciones presentadas}
 
 A partir del análisis del estado del arte en aplicaciones móviles para la recolección de datos geoespaciales en campo, se observa que las soluciones actuales, como GIS Cloud Mobile Data Collection, ArcGIS Field Maps y Mergin Maps, han avanzado significativamente en la digitalización de procesos tradicionales. Estas aplicaciones permiten la captura de datos mediante formularios personalizados, integran soporte multimedia como fotos, audio y video, y ofrecen funcionalidades para trabajar en modo offline con sincronización en tiempo real. Esto ha contribuido a optimizar el flujo de trabajo, reducir errores y agilizar la gestión de información en entornos de campo.
 
@@ -310,15 +511,17 @@ No obstante, es importante señalar que el análisis de las aplicaciones lídere
 
 
 
-\section{Diseño e implementación de la propuesta de solución}
+\chapter{Diseño e implementación de la propuesta de solución}
 
 En este apartado se describen las decisiones tomadas en cuanto a la organización del modelo de datos, la arquitectura adoptada y las principales estrategias empleadas para extender las capacidades del sistema. El objetivo es detallar cómo se abordaron los desafíos técnicos derivados de la necesidad de gestionar estructuras de datos más complejas, como los formularios anidados, y cómo estas soluciones se integraron de manera coherente con la infraestructura existente, manteniendo la escalabilidad y mantenibilidad del sistema.
 
-\subsection{Modelo de datos}
+\section{Modelo de datos}
 
 El modelo de datos implementado en GeoBase se compone de varias clases que permiten organizar y gestionar la información georreferenciada de manera estructurada y flexible. La clase \textbf{Geodata} representa los registros geográficos, almacenando las coordenadas espaciales y vinculándose con \textbf{Category}, que clasifica cada registro mediante atributos como nombre, color e icono. Por otro lado, la clase \textbf{Column} define los diferentes atributos o campos que pueden asociarse a cada categoría, y está relacionada tanto con \textbf{Category} como con \textbf{FieldType}, esta última encargada de especificar el tipo de dato y la forma en que debe ser interpretado o presentado.
 
 Para manejar atributos especializados, el modelo incluye las clases \textbf{StaticSelection} y \textbf{Media}, las cuales se asocian con \textbf{FieldType} para definir opciones preestablecidas y tipos de archivos multimedia permitidos, respectivamente. Finalmente, la clase \textbf{FieldValue} almacena los valores concretos capturados, estableciendo una relación directa con \textbf{Geodata} y \textbf{Column}, lo que asegura que cada dato registrado esté correctamente asociado a su ubicación geográfica y a su atributo correspondiente. La Figura \ref{fig:oldmerx} representa el modelo anteriormente descrito, para más detalles consultar \cite{garcia2024}.
+
+Aunque el modelo de datos descrito permite representar tipos de datos como códigos QR y videos (tratando el primero como un valor de tipo cadena y el segundo como un objeto multimedia asociado a \textbf{Media}), presenta limitaciones importantes para abordar la complejidad que implican los formularios anidados. Esto se debe a que la estructura actual está diseñada para almacenar valores individuales asociados a atributos planos mediante \textbf{FieldValue}, sin contemplar la posibilidad de que un campo pueda contener a su vez un conjunto de subcampos relacionados jerárquicamente.
 
 \begin{figure}[H]
 \centering
@@ -327,7 +530,6 @@ Para manejar atributos especializados, el modelo incluye las clases \textbf{Stat
 \label{fig:oldmerx}
 \end{figure}
 
-Aunque el modelo de datos descrito permite representar tipos de datos como códigos QR y videos (tratando el primero como un valor de tipo cadena y el segundo como un objeto multimedia asociado a \textbf{Media}), presenta limitaciones importantes para abordar la complejidad que implican los formularios anidados. Esto se debe a que la estructura actual está diseñada para almacenar valores individuales asociados a atributos planos mediante \textbf{FieldValue}, sin contemplar la posibilidad de que un campo pueda contener a su vez un conjunto de subcampos relacionados jerárquicamente.
 
 En otras palabras, el modelo establece relaciones directas entre \textbf{Geodata}, \textbf{Column} y \textbf{FieldValue}, pero no incluye mecanismos para que un valor pueda ser a la vez un contenedor de otros valores anidados. Esta falta de soporte para estructuras recursivas o jerárquicas impide representar formularios con campos compuestos o grupos de campos que dependan unos de otros, lo cual es esencial para manejar formularios anidados o dinámicos con múltiples niveles de profundidad.
 
@@ -362,9 +564,9 @@ La integración con el sistema existente se realiza mediante el mecanismo de tip
 
 La estructura resultante soporta anidamiento recursivo mediante la relación entre \textbf{Form} y \textbf{Column}, donde un formulario puede contener múltiples columnas que a su vez pueden hacer referencia a otros formularios. Este diseño se alinea con los principios de composición en sistemas complejos descritos en la literatura especializada, particularmente en lo concerniente a la mantenibilidad y extensibilidad de estructuras de datos jerárquicas. La regla de eliminación en cascada (DeleteRule.CASCADE) garantiza la integridad referencial al eliminar elementos padre en la jerarquía.
 
-\subsection{Arquitectura}
+\section{Arquitectura}
 
-La arquitectura de la aplicación se mantuvo bajo el enfoque de Clean Architecture, preservando la separación en capas y los principios de independencia entre dominio, datos y presentación. Esta decisión se fundamenta en la robustez y flexibilidad que ofrece este patrón, ampliamente recomendado en la literatura especializada para el desarrollo de sistemas mantenibles y escalables. La estructura general del proyecto y las dependencias entre capas se observan en la Figura \ref{fig:cleanarquitecturecode} y la Figura \ref{fig:cleanarquitecturedependences}, respectivamente.
+La arquitectura de la aplicación se mantuvo bajo el enfoque de Clean Architecture (\cite{martin2017}), preservando la separación en capas y los principios de independencia entre dominio, datos y presentación. Esta decisión se fundamenta en la robustez y flexibilidad que ofrece este patrón, ampliamente recomendado en la literatura especializada para el desarrollo de sistemas mantenibles y escalables. La estructura general del proyecto y las dependencias entre capas se observan en la Figura \ref{fig:cleanarquitecturecode} y la Figura \ref{fig:cleanarquitecturedependences}, respectivamente.
 
 \begin{figure}[H]
   \centering
@@ -391,14 +593,14 @@ En la capa de dominio, se incorporaron dos nuevas entidades fundamentales: \text
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{images/fieldtypeform_get_entity.png}
-  \caption{Estructura de la clase FieldTypeFormGetEntity.}
+  \caption{Estructura de la clase \texttt{FieldTypeFormGetEntity}.}
   \label{fig:fieldtypeformgetentity}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.65\textwidth]{images/fieldtypeform_post_entity.png}
-  \caption{Estructura de la clase FieldTypeFormPostEntity.}
+  \caption{Estructura de la clase \texttt{FieldTypeFormPostEntity}.}
   \label{fig:fieldtypeformpostentity}
 \end{figure}
 
@@ -513,7 +715,7 @@ La nueva organización contempla la utilización de directorios específicos par
 
 Como parte de la ampliación de los tipos de datos en el sistema, se incorporaron campos para códigos QR, clasificados como tipo base, así como campos para video, que se gestionan como tipo Media. Estas nuevas opciones permiten ampliar la funcionalidad de los formularios y categorías, facilitando la integración de datos codificados y contenido audiovisual. Los detalles específicos de su implementación y uso serán abordados en secciones posteriores del documento.
 
-\subsection{Tecnologías utilizadas}
+\section{Tecnologías utilizadas}
 
 En primer lugar, se incluyó la dependencia record (\cite{record2024}), la cual permite implementar la funcionalidad de grabación de audio directamente desde la aplicación. La integración de esta tecnología hace posible que los usuarios puedan, mediante una interfaz sencilla, iniciar y detener grabaciones asociada a los formularios o categorías.
 
@@ -524,11 +726,11 @@ Por otro lado, se añadió la dependencia qr\_code\_scanner (\cite{qrcodescanner
 Finalmente, se consideró la inclusión de la dependencia path (\cite{path2024}), que proporciona utilidades para la manipulación eficiente de rutas y archivos en el sistema de almacenamiento del dispositivo.
 
 
-\subsection{Detalles de implementación}
+\section{Detalles de implementación}
 
 En este capítulo se presentan las funcionalidades desarrolladas para la gestión avanzada de datos en GeoBase, enfocándose en la implementación de formularios anidados, así como en los procesos de importación de categorías y exportación de geodata. Se describen los componentes técnicos y las estrategias utilizadas para garantizar una interacción flexible y eficiente con los datos, manteniendo la coherencia y escalabilidad del sistema.
 
-\subsubsection{Formularios anidados}
+\subsection{Formularios anidados}
 
 En el diseño propuesto, una columna de tipo formulario permite al usuario gestionar en tiempo de ejecución una lista de subformularios, todos ellos con la misma estructura. Esto significa que, en lugar de contener un único conjunto de campos, este tipo de columna puede almacenar múltiples instancias del mismo formulario, facilitando así la captura y edición de bloques de datos homogéneos según las necesidades del usuario.
 
@@ -553,7 +755,7 @@ Cada subformulario es representado como una tarjeta expandible, que contiene los
 Los datos ingresados en estos subformularios se serializan como una lista de mapas en formato JSON, lo que permite su almacenamiento eficiente y su reconstrucción durante la edición. Para mantener la coherencia con el resto del sistema, estos valores se encapsulan en objetos del tipo \texttt{FieldValuePostEntity} o \texttt{FieldValuePutEntity}, según el caso.
 
 
-\subsubsection{Importación de categorías}
+\subsection{Importación de categorías}
 
 La funcionalidad de importación de categorías se implementó mediante un componente dedicado basado en un \texttt{Cubit}, denominado \texttt{CategoriesImporterCubit} (Figura \ref{fig:categoryimporter}). Este componente gestiona el flujo completo de importación, desde la selección del archivo hasta la creación de las entidades correspondientes en la base de datos de la aplicación.
 
@@ -570,7 +772,7 @@ La importación de las entidades se realiza de manera recursiva, comenzando por 
 
 Se implementó un manejo robusto de errores y estados, informando al usuario sobre el progreso, éxito o posibles fallos durante el proceso de importación. Esto facilitará tanto la experiencia de uso como el diagnóstico de problemas en caso de incidencias.
 
-\subsubsection{Exportación de geodata}
+\subsection{Exportación de geodata}
 
 La funcionalidad de exportación de \textit{geodata} está gestionada por un componente específico basado en un \texttt{Cubit}, denominado \texttt{GeodataExporterCubit} (Figura \ref{fig:geodataexporter}). Este componente es responsable de todo el flujo de exportación, desde la obtención de los datos hasta la generación y almacenamiento del archivo final.
 
@@ -590,7 +792,7 @@ El usuario selecciona el destino de la exportación a través de un diálogo de 
 El sistema contempla un manejo robusto de errores y estados, informando al usuario sobre el avance, éxito o posibles incidencias durante el proceso de exportación. Esta retroalimentación es fundamental para garantizar una experiencia de usuario clara y confiable.
 
 
-\section{Caso de estudio}
+\chapter{Caso de estudio}
 
 El caso de estudio se centra en la recopilación de datos en campo realizada por una empresa eléctrica en zonas rurales, donde la necesidad de registrar información precisa y estructurada sobre el estado de la infraestructura eléctrica es crítica para optimizar el mantenimiento y garantizar un suministro eficiente.
 
@@ -605,7 +807,7 @@ Cada registro de mantenimiento vinculado a un transformador contiene datos como 
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.7\textwidth]{images/functionality_test/caso_estudio.jpg}
-  \caption{MERX del las entidades para probar las funcionalidades acorde al caso de estudio}
+  \caption{\textit{MERX} del las entidades para probar las funcionalidades acorde al caso de estudio}
   \label{fig:casoestudio}
 \end{figure}
 
@@ -621,7 +823,7 @@ Para llevar a cabo las pruebas funcionales, se utilizó un dispositivo móvil co
 A continuación, se describen las pruebas realizadas, orientadas a validar cada uno de los objetivos específicos de la tesis y su ajuste al contexto real y particular de la recopilación de datos en campo por parte de la empresa eléctrica en zonas rurales, siguiendo un orden cronológico que refleja el flujo natural de uso de la aplicación:
 
 
-\subsection{Prueba 1: Carga de la definición de categorías desde JSON.}
+\section{Prueba 1: Carga de la definición de categorías desde JSON.}
 \begin{itemize}
     \item \textit{Objetivo:} Verificar que la aplicación pueda importar correctamente la estructura de categorías y subcategorías definidas para el caso de estudio.
     \item \textit{Entrada:} Archivo JSON con la definición de categorías, subcategorías y tipos de campo asociados.
@@ -639,7 +841,7 @@ Finalmente, la Figura \ref{fig:loadcategories3} ilustra cómo, a partir de las c
   \begin{minipage}[b]{0.3\textwidth}
     \centering
     \includegraphics[width=\textwidth]{images/functionality_test/load_categories_1.jpg}
-    \caption{Página de categorías antes de cargar del JSON}
+    \caption{Página de categorías antes de cargar del \textit{JSON}}
     \label{fig:loadcategories1}
   \end{minipage}
   \hspace{0.02\textwidth}
@@ -658,7 +860,7 @@ Finalmente, la Figura \ref{fig:loadcategories3} ilustra cómo, a partir de las c
   \end{minipage}
 \end{figure}
 
-\subsection{Prueba 2: Renderizado de formularios anidados.}
+\section{Prueba 2: Renderizado de formularios anidados.}
 \begin{itemize}
   \item \textbf{Objetivo:} Confirmar que, dado un punto georreferenciado perteneciente a una categoría con formularios anidados, la aplicación despliega correctamente dichos formularios para la captura de datos.
   \item \textbf{Entrada:} Selección de un punto en el mapa con categoría asignada.
@@ -674,19 +876,19 @@ Al interactuar con los formularios, la aplicación despliega dinámicamente el c
   \begin{minipage}[b]{0.3\textwidth}
     \centering
     \includegraphics[width=\textwidth]{images/functionality_test/geodata_view1.jpg}
-    \caption{Página de visualización de geodata. Formularios contraídos}
+    \caption{Página de visualización de \textit{geodata}. Formularios contraídos}
     \label{fig:geodataview1}
   \end{minipage}
   \hspace{0.02\textwidth}
   \begin{minipage}[b]{0.3\textwidth}
     \centering
     \includegraphics[width=\textwidth]{images/functionality_test/geodata_view2.jpg}
-    \caption{Página de visualización de geodata. Formularios expandidos}
+    \caption{Página de visualización de \textit{geodata}. Formularios expandidos}
     \label{fig:geodataview2}
   \end{minipage}
 \end{figure}
 
-\subsection{Prueba 3: Captura de datos multimedia y códigos QR en formularios.}
+\section{Prueba 3: Captura de datos multimedia y códigos QR en formularios.}
 \begin{itemize}
   \item \textit{Objetivo:} Validar la funcionalidad de las columnas especializadas para ingresar datos multimedia (fotos, videos, notas de voz) y códigos QR dentro de los formularios anidados.
   \item \textit{Entrada:} Ingreso de datos en las columnas correspondientes durante la edición del formulario.
@@ -721,7 +923,7 @@ Con respecto a los campos de tipo audio, imagen o video, inicialmente se consult
   \end{minipage}
 \end{figure}
 
-\subsection{Prueba 4: Guardado y exportación de datos a formato Excel.}
+\section{Prueba 4: Guardado y exportación de datos a formato Excel.}
 \begin{itemize}
   \item \textit{Objetivo:} Comprobar que los datos ingresados en el formulario, incluyendo los formularios anidados y multimedia, se guardan correctamente y pueden exportarse en un archivo Excel estructurado.
   \item \textit{Entrada:} Datos completados en el formulario y comando de exportación.
@@ -774,7 +976,7 @@ Por último, la Figura \ref{fig:foldermedias} muestra todos los archivos multime
 
 Estas pruebas permiten evidenciar la efectividad de la solución propuesta para abordar las necesidades reales de la empresa eléctrica en zonas rurales, demostrando la capacidad de GeoBase para manejar datos complejos, multimedia y georreferenciados, facilitando así la toma de decisiones y la optimización de recursos en el mantenimiento de la infraestructura eléctrica.
 
-\section{Conclusiones y recomendaciones}
+\chapter{Conclusiones y recomendaciones}
 
 El desarrollo de la aplicación para la captura y gestión de datos georreferenciados con formularios anidados y soporte multimedia ha demostrado ser una solución efectiva y robusta para la recolección de información en campo. A través de las distintas pruebas realizadas, se ha validado que la plataforma cumple con los objetivos planteados, ofreciendo una experiencia intuitiva y funcional para los usuarios.
 
@@ -800,43 +1002,46 @@ Con base en los resultados obtenidos durante el desarrollo y las pruebas de la a
 \begin{thebibliography}{9}
 
   \bibitem{garcia2024}
-  L. A. García López, ``Geobase: aplicación móvil diseñada para el levantamiento en campo'', \textit{Tesis de Licenciatura, Universidad de la Habana}.
+  L. A. García López, \textit{``Geobase: aplicación móvil diseñada para el levantamiento en campo''}, \textit{Tesis de Licenciatura, Universidad de la Habana}.
 
   \bibitem{sarria2020} 
-  F. Sarría, ``Sistemas de Información Geográfica'', 2020. [Online]. Disponible: \url{https://www.um.es/geograf/sigmur/sigpdf/temario_in.pdf}
+  F. Sarría, \textit{``Sistemas de Información Geográfica''}, 2020. [Online]. Disponible: \url{https://www.um.es/geograf/sigmur/sigpdf/temario_in.pdf}
   
   \bibitem{castro2018}
-  S. Castro, ``Aplicaciones móviles para la recogida y notificación de datos en campo sobre las propiedades de Managua, Nicaragua'', \textit{Tesis de Licenciatura, Universidad de la Habana}
+  S. Castro, \textit{``Aplicaciones móviles para la recogida y notificación de datos en campo sobre las propiedades de Managua, Nicaragua''}, \textit{Tesis de Licenciatura, Universidad de la Habana}
   
   \bibitem{rivero2019} 
-  A. Rivero, ``NTCollector: aplicación móvil para manejo de redes geográficas con formularios dinámicos'', \textit{Tesis de Licenciatura, Universidad de la Habana}.
+  A. Rivero, \textit{``NTCollector: aplicación móvil para manejo de redes geográficas con formularios dinámicos''}, \textit{Tesis de Licenciatura, Universidad de la Habana}.
 
   \bibitem{ceri1984}
-  S. Ceri, G. Gottlob, y L. Tanca, ``A Comparative Study of Various Nested Normal Forms'', \textit{IEEE Transactions on Software Engineering}, vol. SE-10, no. 5, pp. 569--579, 1984. [Online]. Disponible: \url{https://doi.org/10.1109/TSE.1984.5010245}
+  S. Ceri, G. Gottlob, y L. Tanca, \textit{``A Comparative Study of Various Nested Normal Forms''}, \textit{IEEE Transactions on Software Engineering}, vol. SE-10, no. 5, pp. 569--579, 1984. [Online]. Disponible: \url{https://doi.org/10.1109/TSE.1984.5010245}
 
   \bibitem{esriFieldMaps}
-  Esri, ``Introducción a ArcGIS Field Maps,'' 2024. [En línea]. Disponible: \url{https://doc.arcgis.com/es/field-maps/get-started/get-started.htm}
+  Esri, \textit{``Introducción a ArcGIS Field Maps''}, 2024. [En línea]. Disponible: \url{https://doc.arcgis.com/es/field-maps/get-started/get-started.htm}
 
   \bibitem{merginmapsdocs}
-  Mergin Maps, ``Mergin Maps Documentation,'' 2024. [En línea]. Disponible: \url{https://merginmaps.com/docs/}
+  Mergin Maps, \textit{``Mergin Maps Documentation''}, 2024. [En línea]. Disponible: \url{https://merginmaps.com/docs/}
 
   \bibitem{giscloudhow}
-  GIS Cloud, ``How it works,'' 2024. [En línea]. Disponible: \url{https://www.giscloud.com/how-it-works/}
+  GIS Cloud, \textit{``How it works''}, 2024. [En línea]. Disponible: \url{https://www.giscloud.com/how-it-works/}
 
   \bibitem{qgisdocs}
-  QGIS Development Team, ``QGIS 3.40 Documentation,'' 2024. [En línea]. Disponible: \url{https://docs.qgis.org/3.40/en/docs/index.html}
+  QGIS Development Team, \textit{QGIS 3.40 Documentation} 2024. [En línea]. Disponible: \url{https://docs.qgis.org/3.40/en/docs/index.html}
+
+  \bibitem{martin2017}
+  R. C. Martin, \textit{``Clean Architecture: A Craftsman's Guide to Software Structure and Design''}, Prentice Hall, 2017.
 
   \bibitem{record2024}
-  Dart Packages, ``record: A package for recording and playing back audio'', 2024. [Online]. Disponible: \url{https://pub.dev/packages/record}
+  Dart Packages, \textit{``record: A package for recording and playing back audio''}, 2024. [Online]. Disponible: \url{https://pub.dev/packages/record}
 
   \bibitem{excel2024}
-  Dart Packages, ``excel: A library for creating, reading, and updating Excel (XLSX) files in Dart/Flutter'', 2024. [Online]. Disponible: \url{https://pub.dev/packages/excel}
+  Dart Packages, \textit{``excel: A library for creating, reading, and updating Excel (XLSX) files in Dart/Flutter''}, 2024. [Online]. Disponible: \url{https://pub.dev/packages/excel}
   
   \bibitem{qrcodescanner2024}
-  Dart Packages, ``qr\_code\_scanner: A Flutter plugin for scanning QR codes using the device's camera'', 2024. [Online]. Disponible: \url{https://pub.dev/packages/qr_code_scanner}
+  Dart Packages, \textit{``qr\_code\_scanner: A Flutter plugin for scanning QR codes using the device's camera''}, 2024. [Online]. Disponible: \url{https://pub.dev/packages/qr_code_scanner}
 
   \bibitem{path2024}
-  Dart Team, ``path: A comprehensive library for path manipulation in Dart'', 2024. [Online]. Disponible: \url{https://pub.dev/packages/path}
+  Dart Team, \textit{``path: A comprehensive library for path manipulation in Dart''}, 2024. [Online]. Disponible: \url{https://pub.dev/packages/path}
 
 \end{thebibliography}
 

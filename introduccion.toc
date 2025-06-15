@@ -1,0 +1,31 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {spanish}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{8}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Antecedentes del problema científico}{8}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Presentación de la problemática}{10}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Motivación y justificación}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objetivos}{11}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Estructuración del trabajo}{11}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Estado del arte}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Aplicaciones con funcionalidades similares}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}ArcGIS Field Maps}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Mergin Maps}{15}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}GIS Cloud Mobile Data Collection}{17}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Conclusiones de las aplicaciones presentadas}{18}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Diseño e implementación de la propuesta de solución}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Modelo de datos}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Arquitectura}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Tecnologías utilizadas}{28}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Detalles de implementación}{29}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Formularios anidados}{29}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Importación de categorías}{30}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Exportación de geodata}{31}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Caso de estudio}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Prueba 1: Carga de la definición de categorías desde JSON.}{34}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Prueba 2: Renderizado de formularios anidados.}{35}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Prueba 3: Captura de datos multimedia y códigos QR en formularios.}{36}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Prueba 4: Guardado y exportación de datos a formato Excel.}{38}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusiones y recomendaciones}{41}{chapter.5}%
