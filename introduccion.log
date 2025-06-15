@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.6.14)  14 JUN 2025 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.6.14)  14 JUN 2025 22:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -400,10 +400,10 @@ LaTeX Info: Redefining \% on input line 11.
 Package babel Info: Importing basic data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
 )
 \openout1 = `introduccion.aux'.
 
@@ -550,26 +550,32 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 
-{C:/Users/Al/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./images/uhlogo.png>] [2
+{C:/Users/Al/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./images/uhlogo.png>]
+<images/meme-calaveras.jpg, id=117, 722.7pt x 550.055pt>
+File: images/meme-calaveras.jpg Graphic file (type jpg)
+<use images/meme-calaveras.jpg>
+Package pdftex.def Info: images/meme-calaveras.jpg  used on input line 214.
+(pdftex.def)             Requested size: 128.0387pt x 97.45288pt.
+ [2
 
-]
-<images/firma_tutor.png, id=121, 170.163pt x 48.2895pt>
+ <./images/meme-calaveras.jpg>]
+<images/firma_tutor.png, id=122, 170.163pt x 48.2895pt>
 File: images/firma_tutor.png Graphic file (type png)
 <use images/firma_tutor.png>
-Package pdftex.def Info: images/firma_tutor.png  used on input line 225.
+Package pdftex.def Info: images/firma_tutor.png  used on input line 233.
 (pdftex.def)             Requested size: 170.71652pt x 48.4478pt.
  [3
 
  <./images/firma_tutor.png>] [4
 
 ]
-LaTeX Info: Redefining \. on input line 243.
-LaTeX Info: Redefining \% on input line 243.
+LaTeX Info: Redefining \. on input line 251.
+LaTeX Info: Redefining \% on input line 251.
  [5
 
 ]
-LaTeX Info: Redefining \. on input line 243.
-LaTeX Info: Redefining \% on input line 243.
+LaTeX Info: Redefining \. on input line 251.
+LaTeX Info: Redefining \% on input line 251.
  (introduccion.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -606,8 +612,8 @@ Cap\'{\i }tulo 1.
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 271.
-LaTeX Info: Redefining \% on input line 271.
+LaTeX Info: Redefining \. on input line 279.
+LaTeX Info: Redefining \% on input line 279.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -617,8 +623,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [9]
-LaTeX Info: Redefining \. on input line 286.
-LaTeX Info: Redefining \% on input line 286.
+LaTeX Info: Redefining \. on input line 294.
+LaTeX Info: Redefining \% on input line 294.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -628,8 +634,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-LaTeX Info: Redefining \. on input line 327.
-LaTeX Info: Redefining \% on input line 327.
+LaTeX Info: Redefining \. on input line 335.
+LaTeX Info: Redefining \% on input line 335.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -639,8 +645,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
-LaTeX Info: Redefining \. on input line 349.
-LaTeX Info: Redefining \% on input line 349.
+LaTeX Info: Redefining \. on input line 357.
+LaTeX Info: Redefining \% on input line 357.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -651,10 +657,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]
 Cap\'{\i }tulo 2.
-<images/arcgis_logo.png, id=294, 803.0pt x 803.0pt>
+<images/arcgis_logo.png, id=295, 803.0pt x 803.0pt>
 File: images/arcgis_logo.png Graphic file (type png)
 <use images/arcgis_logo.png>
-Package pdftex.def Info: images/arcgis_logo.png  used on input line 361.
+Package pdftex.def Info: images/arcgis_logo.png  used on input line 369.
 (pdftex.def)             Requested size: 170.71393pt x 170.70569pt.
 [13
 
@@ -662,15 +668,15 @@ Package pdftex.def Info: images/arcgis_logo.png  used on input line 361.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.371 
+l.379 
        <./images/arcgis_logo.png>]
-<images/FieldMapsSmartForms.png, id=302, 1208.515pt x 985.6825pt>
+<images/FieldMapsSmartForms.png, id=303, 1208.515pt x 985.6825pt>
 File: images/FieldMapsSmartForms.png Graphic file (type png)
 <use images/FieldMapsSmartForms.png>
-Package pdftex.def Info: images/FieldMapsSmartForms.png  used on input line 383.
+Package pdftex.def Info: images/FieldMapsSmartForms.png  used on input line 391.
 (pdftex.def)             Requested size: 213.39568pt x 174.04616pt.
-LaTeX Info: Redefining \. on input line 397.
-LaTeX Info: Redefining \% on input line 397.
+LaTeX Info: Redefining \. on input line 405.
+LaTeX Info: Redefining \% on input line 405.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -683,15 +689,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.397 \end{itemize}
+l.405 \end{itemize}
                     <./images/FieldMapsSmartForms.png>]
-<images/mergin_maps.jpeg, id=310, 200.75pt x 200.75pt>
+<images/mergin_maps.jpeg, id=311, 200.75pt x 200.75pt>
 File: images/mergin_maps.jpeg Graphic file (type jpg)
 <use images/mergin_maps.jpeg>
-Package pdftex.def Info: images/mergin_maps.jpeg  used on input line 405.
+Package pdftex.def Info: images/mergin_maps.jpeg  used on input line 413.
 (pdftex.def)             Requested size: 213.39568pt x 213.40967pt.
-LaTeX Info: Redefining \. on input line 420.
-LaTeX Info: Redefining \% on input line 420.
+LaTeX Info: Redefining \. on input line 428.
+LaTeX Info: Redefining \% on input line 428.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -704,15 +710,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.420   \item \textbf
+l.428   \item \textbf
                      {Trabajo offline y sincronizaci√≥n:} Funciona sin conex... <./images/mergin_maps.jpeg>]
-<images/mergin.jpeg, id=317, 475.7775pt x 309.155pt>
+<images/mergin.jpeg, id=318, 475.7775pt x 309.155pt>
 File: images/mergin.jpeg Graphic file (type jpg)
 <use images/mergin.jpeg>
-Package pdftex.def Info: images/mergin.jpeg  used on input line 431.
+Package pdftex.def Info: images/mergin.jpeg  used on input line 439.
 (pdftex.def)             Requested size: 213.39568pt x 138.66087pt.
-LaTeX Info: Redefining \. on input line 445.
-LaTeX Info: Redefining \% on input line 445.
+LaTeX Info: Redefining \. on input line 453.
+LaTeX Info: Redefining \% on input line 453.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -725,15 +731,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.445 \end{itemize}
+l.453 \end{itemize}
                     <./images/mergin.jpeg>]
-<images/gis_cloud.png, id=323, 513.92pt x 513.92pt>
+<images/gis_cloud.png, id=324, 513.92pt x 513.92pt>
 File: images/gis_cloud.png Graphic file (type png)
 <use images/gis_cloud.png>
-Package pdftex.def Info: images/gis_cloud.png  used on input line 453.
+Package pdftex.def Info: images/gis_cloud.png  used on input line 461.
 (pdftex.def)             Requested size: 170.71393pt x 170.71548pt.
-LaTeX Info: Redefining \. on input line 472.
-LaTeX Info: Redefining \% on input line 472.
+LaTeX Info: Redefining \. on input line 480.
+LaTeX Info: Redefining \% on input line 480.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -746,15 +752,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.472 
+l.480 
        <./images/gis_cloud.png>]
-<images/gis_cloud_forms.jpeg, id=330, 475.7775pt x 549.05125pt>
+<images/gis_cloud_forms.jpeg, id=331, 475.7775pt x 549.05125pt>
 File: images/gis_cloud_forms.jpeg Graphic file (type jpg)
 <use images/gis_cloud_forms.jpeg>
-Package pdftex.def Info: images/gis_cloud_forms.jpeg  used on input line 478.
+Package pdftex.def Info: images/gis_cloud_forms.jpeg  used on input line 486.
 (pdftex.def)             Requested size: 170.71393pt x 197.00482pt.
-LaTeX Info: Redefining \. on input line 498.
-LaTeX Info: Redefining \% on input line 498.
+LaTeX Info: Redefining \. on input line 506.
+LaTeX Info: Redefining \% on input line 506.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -767,10 +773,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.498 
+l.506 
        <./images/gis_cloud_forms.jpeg>]
-LaTeX Info: Redefining \. on input line 514.
-LaTeX Info: Redefining \% on input line 514.
+LaTeX Info: Redefining \. on input line 522.
+LaTeX Info: Redefining \% on input line 522.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -781,10 +787,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [19]
 Cap\'{\i }tulo 3.
-<images/old_merx.jpg, id=342, 809.0225pt x 568.1225pt>
+<images/old_merx.jpg, id=343, 809.0225pt x 568.1225pt>
 File: images/old_merx.jpg Graphic file (type jpg)
 <use images/old_merx.jpg>
-Package pdftex.def Info: images/old_merx.jpg  used on input line 528.
+Package pdftex.def Info: images/old_merx.jpg  used on input line 536.
 (pdftex.def)             Requested size: 341.43437pt x 239.77144pt.
 
 Underfull \vbox (badness 7273) has occurred while \output is active []
@@ -792,16 +798,16 @@ Underfull \vbox (badness 7273) has occurred while \output is active []
  [20
 
 ]
-<images/new_merx.png, id=349, 832.10875pt x 674.52pt>
+<images/new_merx.png, id=350, 832.10875pt x 674.52pt>
 File: images/new_merx.png Graphic file (type png)
 <use images/new_merx.png>
-Package pdftex.def Info: images/new_merx.png  used on input line 540.
+Package pdftex.def Info: images/new_merx.png  used on input line 548.
 (pdftex.def)             Requested size: 341.43437pt x 276.77113pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 544.
-LaTeX Info: Redefining \% on input line 544.
+LaTeX Info: Redefining \. on input line 552.
+LaTeX Info: Redefining \% on input line 552.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -814,10 +820,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.544 
+l.552 
        <./images/old_merx.jpg>]
-LaTeX Info: Redefining \. on input line 564.
-LaTeX Info: Redefining \% on input line 564.
+LaTeX Info: Redefining \. on input line 572.
+LaTeX Info: Redefining \% on input line 572.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -830,23 +836,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.564 
+l.572 
        <./images/new_merx.png>]
-<images/clean_arq_code_structure.jpg, id=363, 118.64325pt x 266.1945pt>
+<images/clean_arq_code_structure.jpg, id=364, 118.64325pt x 266.1945pt>
 File: images/clean_arq_code_structure.jpg Graphic file (type jpg)
 <use images/clean_arq_code_structure.jpg>
-Package pdftex.def Info: images/clean_arq_code_structure.jpg  used on input line 575.
+Package pdftex.def Info: images/clean_arq_code_structure.jpg  used on input line 583.
 (pdftex.def)             Requested size: 170.71393pt x 383.02733pt.
-<images/clean_arq_dependences.jpg, id=364, 230.0595pt x 286.06876pt>
+<images/clean_arq_dependences.jpg, id=365, 230.0595pt x 286.06876pt>
 File: images/clean_arq_dependences.jpg Graphic file (type jpg)
 <use images/clean_arq_dependences.jpg>
-Package pdftex.def Info: images/clean_arq_dependences.jpg  used on input line 582.
+Package pdftex.def Info: images/clean_arq_dependences.jpg  used on input line 590.
 (pdftex.def)             Requested size: 170.71393pt x 212.28557pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 588.
-LaTeX Info: Redefining \% on input line 588.
+LaTeX Info: Redefining \. on input line 596.
+LaTeX Info: Redefining \% on input line 596.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -856,13 +862,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23]
-<images/fieldtypeform_get_entity.png, id=372, 796.9775pt x 155.58125pt>
+<images/fieldtypeform_get_entity.png, id=373, 796.9775pt x 155.58125pt>
 File: images/fieldtypeform_get_entity.png Graphic file (type png)
 <use images/fieldtypeform_get_entity.png>
-Package pdftex.def Info: images/fieldtypeform_get_entity.png  used on input line 595.
+Package pdftex.def Info: images/fieldtypeform_get_entity.png  used on input line 603.
 (pdftex.def)             Requested size: 426.79135pt x 83.31467pt.
-LaTeX Info: Redefining \. on input line 599.
-LaTeX Info: Redefining \% on input line 599.
+LaTeX Info: Redefining \. on input line 607.
+LaTeX Info: Redefining \% on input line 607.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -875,48 +881,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.599 
+l.607 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.599 
+l.607 
        <./images/clean_arq_code_structure.jpg> <./images/clean_arq_dependences.jpg>]
-<images/fieldtypeform_post_entity.png, id=377, 580.1675pt x 155.58125pt>
+<images/fieldtypeform_post_entity.png, id=378, 580.1675pt x 155.58125pt>
 File: images/fieldtypeform_post_entity.png Graphic file (type png)
 <use images/fieldtypeform_post_entity.png>
-Package pdftex.def Info: images/fieldtypeform_post_entity.png  used on input line 602.
+Package pdftex.def Info: images/fieldtypeform_post_entity.png  used on input line 610.
 (pdftex.def)             Requested size: 277.41176pt x 74.39326pt.
-<images/iform_repo.jpg, id=380, 373.395pt x 172.645pt>
+<images/iform_repo.jpg, id=381, 373.395pt x 172.645pt>
 File: images/iform_repo.jpg Graphic file (type jpg)
 <use images/iform_repo.jpg>
-Package pdftex.def Info: images/iform_repo.jpg  used on input line 613.
+Package pdftex.def Info: images/iform_repo.jpg  used on input line 621.
 (pdftex.def)             Requested size: 192.0548pt x 88.79855pt.
-<images/iformservice.jpg, id=381, 363.3575pt x 172.645pt>
+<images/iformservice.jpg, id=382, 363.3575pt x 172.645pt>
 File: images/iformservice.jpg Graphic file (type jpg)
 <use images/iformservice.jpg>
-Package pdftex.def Info: images/iformservice.jpg  used on input line 620.
+Package pdftex.def Info: images/iformservice.jpg  used on input line 628.
 (pdftex.def)             Requested size: 192.0548pt x 91.25377pt.
 
-Underfull \hbox (badness 1540) in paragraph at lines 626--627
+Underfull \hbox (badness 1540) in paragraph at lines 634--635
 \T1/lmr/m/n/12 (+20) tes a los for-mu-la-rios, es-pe-cÌ-fi-ca-men-te las cla-ses \T1/lmtt/m/n/12 FieldTypeFormGetModel \T1/lmr/m/n/12 (+20) y
  []
 
-<images/form_get_model.jpg, id=382, 793.96625pt x 155.58125pt>
+<images/form_get_model.jpg, id=383, 793.96625pt x 155.58125pt>
 File: images/form_get_model.jpg Graphic file (type jpg)
 <use images/form_get_model.jpg>
-Package pdftex.def Info: images/form_get_model.jpg  used on input line 630.
+Package pdftex.def Info: images/form_get_model.jpg  used on input line 638.
 (pdftex.def)             Requested size: 426.79135pt x 83.63277pt.
-<images/form_post_model.jpg, id=383, 580.1675pt x 155.58125pt>
+<images/form_post_model.jpg, id=384, 580.1675pt x 155.58125pt>
 File: images/form_post_model.jpg Graphic file (type jpg)
 <use images/form_post_model.jpg>
-Package pdftex.def Info: images/form_post_model.jpg  used on input line 636.
+Package pdftex.def Info: images/form_post_model.jpg  used on input line 644.
 (pdftex.def)             Requested size: 341.43437pt x 91.56186pt.
 
 Underfull \vbox (badness 2521) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 639.
-LaTeX Info: Redefining \% on input line 639.
+LaTeX Info: Redefining \. on input line 647.
+LaTeX Info: Redefining \% on input line 647.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -929,55 +935,55 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.639 \end{figure}
+l.647 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.639 \end{figure}
+l.647 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.639 \end{figure}
+l.647 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.639 \end{figure}
+l.647 \end{figure}
                    <./images/fieldtypeform_get_entity.png> <./images/fieldtypeform_post_entity.png> <./images/iform_repo.jpg> <./images/iformservice.jpg>]
-<images/form_provider.jpg, id=393, 333.245pt x 172.645pt>
+<images/form_provider.jpg, id=394, 333.245pt x 172.645pt>
 File: images/form_provider.jpg Graphic file (type jpg)
 <use images/form_provider.jpg>
-Package pdftex.def Info: images/form_provider.jpg  used on input line 647.
+Package pdftex.def Info: images/form_provider.jpg  used on input line 655.
 (pdftex.def)             Requested size: 183.51715pt x 95.0762pt.
-<images/column_provider.jpg, id=394, 413.545pt x 172.645pt>
+<images/column_provider.jpg, id=395, 413.545pt x 172.645pt>
 File: images/column_provider.jpg Graphic file (type jpg)
 <use images/column_provider.jpg>
-Package pdftex.def Info: images/column_provider.jpg  used on input line 654.
+Package pdftex.def Info: images/column_provider.jpg  used on input line 662.
 (pdftex.def)             Requested size: 200.59245pt x 83.74324pt.
 
-Underfull \hbox (badness 2951) in paragraph at lines 655--655
+Underfull \hbox (badness 2951) in paragraph at lines 663--663
 []\T1/lmr/m/n/12 (+20) Figura 3.12: []Interface de la cla-se
  []
 
-<images/form_page.jpg, id=398, 137.313pt x 183.68625pt>
+<images/form_page.jpg, id=399, 137.313pt x 183.68625pt>
 File: images/form_page.jpg Graphic file (type jpg)
 <use images/form_page.jpg>
-Package pdftex.def Info: images/form_page.jpg  used on input line 668.
+Package pdftex.def Info: images/form_page.jpg  used on input line 676.
 (pdftex.def)             Requested size: 95.60303pt x 127.88998pt.
-<images/category_page.jpg, id=399, 163.812pt x 248.72925pt>
+<images/category_page.jpg, id=400, 163.812pt x 248.72925pt>
 File: images/category_page.jpg Graphic file (type jpg)
 <use images/category_page.jpg>
-Package pdftex.def Info: images/category_page.jpg  used on input line 675.
+Package pdftex.def Info: images/category_page.jpg  used on input line 683.
 (pdftex.def)             Requested size: 128.0387pt x 194.4255pt.
-<images/goedata_page.jpg, id=400, 154.176pt x 284.262pt>
+<images/goedata_page.jpg, id=401, 154.176pt x 284.262pt>
 File: images/goedata_page.jpg Graphic file (type jpg)
 <use images/goedata_page.jpg>
-Package pdftex.def Info: images/goedata_page.jpg  used on input line 682.
+Package pdftex.def Info: images/goedata_page.jpg  used on input line 690.
 (pdftex.def)             Requested size: 128.0387pt x 236.07619pt.
-LaTeX Info: Redefining \. on input line 686.
-LaTeX Info: Redefining \% on input line 686.
+LaTeX Info: Redefining \. on input line 694.
+LaTeX Info: Redefining \% on input line 694.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -989,43 +995,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \end{figure}
+l.694 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \end{figure}
+l.694 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \end{figure}
+l.694 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.686 \end{figure}
+l.694 \end{figure}
                    <./images/form_get_model.jpg> <./images/form_post_model.jpg> <./images/form_provider.jpg> <./images/column_provider.jpg>]
-<images/field_views.jpg, id=408, 197.538pt x 133.6995pt>
+<images/field_views.jpg, id=409, 197.538pt x 133.6995pt>
 File: images/field_views.jpg Graphic file (type jpg)
 <use images/field_views.jpg>
-Package pdftex.def Info: images/field_views.jpg  used on input line 696.
+Package pdftex.def Info: images/field_views.jpg  used on input line 704.
 (pdftex.def)             Requested size: 128.0387pt x 86.6629pt.
-<images/field_inputs.jpg, id=409, 186.6975pt x 281.25075pt>
+<images/field_inputs.jpg, id=410, 186.6975pt x 281.25075pt>
 File: images/field_inputs.jpg Graphic file (type jpg)
 <use images/field_inputs.jpg>
-Package pdftex.def Info: images/field_inputs.jpg  used on input line 703.
+Package pdftex.def Info: images/field_inputs.jpg  used on input line 711.
 (pdftex.def)             Requested size: 128.0387pt x 192.89162pt.
-<images/field_renders.jpg, id=410, 184.2885pt x 284.86424pt>
+<images/field_renders.jpg, id=411, 184.2885pt x 284.86424pt>
 File: images/field_renders.jpg Graphic file (type jpg)
 <use images/field_renders.jpg>
-Package pdftex.def Info: images/field_renders.jpg  used on input line 710.
+Package pdftex.def Info: images/field_renders.jpg  used on input line 718.
 (pdftex.def)             Requested size: 128.0387pt x 197.92139pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 715.
-LaTeX Info: Redefining \% on input line 715.
+LaTeX Info: Redefining \. on input line 723.
+LaTeX Info: Redefining \% on input line 723.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1038,22 +1044,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.715 
+l.723 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.715 
+l.723 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.715 
+l.723 
        <./images/form_page.jpg> <./images/category_page.jpg> <./images/goedata_page.jpg>]
 Underfull \vbox (badness 1087) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 732.
-LaTeX Info: Redefining \% on input line 732.
+LaTeX Info: Redefining \. on input line 740.
+LaTeX Info: Redefining \% on input line 740.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1066,37 +1072,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.732 
+l.740 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.732 
+l.740 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.732 
+l.740 
        <./images/field_views.jpg> <./images/field_inputs.jpg> <./images/field_renders.jpg>]
-Overfull \hbox (27.62613pt too wide) in paragraph at lines 737--738
+Overfull \hbox (27.62613pt too wide) in paragraph at lines 745--746
 []\T1/lmr/m/n/12 (-20) La im-ple-men-ta-ciÛn se ba-sa en un wid-get es-pe-cia-li-za-do de-no-mi-na-do \T1/lmtt/m/n/12 FormFieldInputWidget
  []
 
-<images/form_field_input.jpg, id=428, 654.445pt x 155.58125pt>
+<images/form_field_input.jpg, id=429, 654.445pt x 155.58125pt>
 File: images/form_field_input.jpg Graphic file (type jpg)
 <use images/form_field_input.jpg>
-Package pdftex.def Info: images/form_field_input.jpg  used on input line 741.
+Package pdftex.def Info: images/form_field_input.jpg  used on input line 749.
 (pdftex.def)             Requested size: 384.1096pt x 91.31496pt.
-<images/dynamic_form_list.jpg, id=430, 293.095pt x 262.9825pt>
+<images/dynamic_form_list.jpg, id=431, 293.095pt x 262.9825pt>
 File: images/dynamic_form_list.jpg Graphic file (type jpg)
 <use images/dynamic_form_list.jpg>
-Package pdftex.def Info: images/dynamic_form_list.jpg  used on input line 750.
+Package pdftex.def Info: images/dynamic_form_list.jpg  used on input line 758.
 (pdftex.def)             Requested size: 213.39568pt x 191.47pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 754.
-LaTeX Info: Redefining \% on input line 754.
+LaTeX Info: Redefining \. on input line 762.
+LaTeX Info: Redefining \% on input line 762.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1109,15 +1115,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.754 
+l.762 
        <./images/form_field_input.jpg>]
-<images/category_importer.jpg, id=436, 471.7625pt x 217.81375pt>
+<images/category_importer.jpg, id=437, 471.7625pt x 217.81375pt>
 File: images/category_importer.jpg Graphic file (type jpg)
 <use images/category_importer.jpg>
-Package pdftex.def Info: images/category_importer.jpg  used on input line 764.
+Package pdftex.def Info: images/category_importer.jpg  used on input line 772.
 (pdftex.def)             Requested size: 298.75264pt x 137.93794pt.
-LaTeX Info: Redefining \. on input line 772.
-LaTeX Info: Redefining \% on input line 772.
+LaTeX Info: Redefining \. on input line 780.
+LaTeX Info: Redefining \% on input line 780.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1130,20 +1136,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.772 
+l.780 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.772 
+l.780 
        <./images/dynamic_form_list.jpg> <./images/category_importer.jpg>]
-<images/geodata_exporter.jpg, id=442, 349.305pt x 217.81375pt>
+<images/geodata_exporter.jpg, id=443, 349.305pt x 217.81375pt>
 File: images/geodata_exporter.jpg Graphic file (type jpg)
 <use images/geodata_exporter.jpg>
-Package pdftex.def Info: images/geodata_exporter.jpg  used on input line 781.
+Package pdftex.def Info: images/geodata_exporter.jpg  used on input line 789.
 (pdftex.def)             Requested size: 298.75264pt x 186.30247pt.
-LaTeX Info: Redefining \. on input line 792.
-LaTeX Info: Redefining \% on input line 792.
+LaTeX Info: Redefining \. on input line 800.
+LaTeX Info: Redefining \% on input line 800.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1156,10 +1162,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.792 E
+l.800 E
        l sistema contempla un manejo robusto de errores y estados, informand... <./images/geodata_exporter.jpg>]
-LaTeX Info: Redefining \. on input line 795.
-LaTeX Info: Redefining \% on input line 795.
+LaTeX Info: Redefining \. on input line 803.
+LaTeX Info: Redefining \% on input line 803.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1170,10 +1176,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [32]
 Cap\'{\i }tulo 4.
-<images/functionality_test/caso_estudio.jpg, id=453, 652.4375pt x 428.60126pt>
+<images/functionality_test/caso_estudio.jpg, id=454, 652.4375pt x 428.60126pt>
 File: images/functionality_test/caso_estudio.jpg Graphic file (type jpg)
 <use images/functionality_test/caso_estudio.jpg>
-Package pdftex.def Info: images/functionality_test/caso_estudio.jpg  used on input line 809.
+Package pdftex.def Info: images/functionality_test/caso_estudio.jpg  used on input line 817.
 (pdftex.def)             Requested size: 298.75264pt x 196.263pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1181,12 +1187,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 818.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 826.
  (C:\Users\Al\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \. on input line 836.
-LaTeX Info: Redefining \% on input line 836.
+LaTeX Info: Redefining \. on input line 844.
+LaTeX Info: Redefining \% on input line 844.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1199,25 +1205,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.836 
+l.844 
       {C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./images/functionality_test/caso_estudio.jpg>]
-<images/functionality_test/load_categories_1.jpg, id=466, 578.16pt x 1284.8pt>
+<images/functionality_test/load_categories_1.jpg, id=467, 578.16pt x 1284.8pt>
 File: images/functionality_test/load_categories_1.jpg Graphic file (type jpg)
 <use images/functionality_test/load_categories_1.jpg>
-Package pdftex.def Info: images/functionality_test/load_categories_1.jpg  used on input line 843.
+Package pdftex.def Info: images/functionality_test/load_categories_1.jpg  used on input line 851.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/load_categories_2.jpg, id=467, 578.16pt x 1284.8pt>
+<images/functionality_test/load_categories_2.jpg, id=468, 578.16pt x 1284.8pt>
 File: images/functionality_test/load_categories_2.jpg Graphic file (type jpg)
 <use images/functionality_test/load_categories_2.jpg>
-Package pdftex.def Info: images/functionality_test/load_categories_2.jpg  used on input line 850.
+Package pdftex.def Info: images/functionality_test/load_categories_2.jpg  used on input line 858.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/load_categories_3.jpg, id=468, 578.16pt x 1284.8pt>
+<images/functionality_test/load_categories_3.jpg, id=469, 578.16pt x 1284.8pt>
 File: images/functionality_test/load_categories_3.jpg Graphic file (type jpg)
 <use images/functionality_test/load_categories_3.jpg>
-Package pdftex.def Info: images/functionality_test/load_categories_3.jpg  used on input line 857.
+Package pdftex.def Info: images/functionality_test/load_categories_3.jpg  used on input line 865.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-LaTeX Info: Redefining \. on input line 871.
-LaTeX Info: Redefining \% on input line 871.
+LaTeX Info: Redefining \. on input line 879.
+LaTeX Info: Redefining \% on input line 879.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1230,40 +1236,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.871 
+l.879 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.871 
+l.879 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.871 
+l.879 
        <./images/functionality_test/load_categories_1.jpg> <./images/functionality_test/load_categories_2.jpg> <./images/functionality_test/load_categories_3.jpg>]
-<images/functionality_test/geodata_view1.jpg, id=475, 578.16pt x 1284.8pt>
+<images/functionality_test/geodata_view1.jpg, id=476, 578.16pt x 1284.8pt>
 File: images/functionality_test/geodata_view1.jpg Graphic file (type jpg)
 <use images/functionality_test/geodata_view1.jpg>
-Package pdftex.def Info: images/functionality_test/geodata_view1.jpg  used on input line 878.
+Package pdftex.def Info: images/functionality_test/geodata_view1.jpg  used on input line 886.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
 
-Underfull \hbox (badness 1796) in paragraph at lines 879--879
+Underfull \hbox (badness 1796) in paragraph at lines 887--887
 []\T1/lmr/m/n/12 (+20) Figura 4.5: []P·gina de
  []
 
-<images/functionality_test/geodata_view2.jpg, id=476, 578.16pt x 1284.8pt>
+<images/functionality_test/geodata_view2.jpg, id=477, 578.16pt x 1284.8pt>
 File: images/functionality_test/geodata_view2.jpg Graphic file (type jpg)
 <use images/functionality_test/geodata_view2.jpg>
-Package pdftex.def Info: images/functionality_test/geodata_view2.jpg  used on input line 885.
+Package pdftex.def Info: images/functionality_test/geodata_view2.jpg  used on input line 893.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
 
-Underfull \hbox (badness 1796) in paragraph at lines 886--886
+Underfull \hbox (badness 1796) in paragraph at lines 894--894
 []\T1/lmr/m/n/12 (+20) Figura 4.6: []P·gina de
  []
 
-LaTeX Info: Redefining \. on input line 895.
-LaTeX Info: Redefining \% on input line 895.
+LaTeX Info: Redefining \. on input line 903.
+LaTeX Info: Redefining \% on input line 903.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1275,33 +1281,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.895   \item \textit
+l.903   \item \textit
                      {Salida esperada:} Los datos multimedia y c√≥digos QR s...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.895   \item \textit
+l.903   \item \textit
                      {Salida esperada:} Los datos multimedia y c√≥digos QR s... <./images/functionality_test/geodata_view1.jpg> <./images/functionality_test/geodata_view2.jpg>]
-<images/functionality_test/medias2.png, id=484, 578.16pt x 1284.8pt>
+<images/functionality_test/medias2.png, id=485, 578.16pt x 1284.8pt>
 File: images/functionality_test/medias2.png Graphic file (type png)
 <use images/functionality_test/medias2.png>
-Package pdftex.def Info: images/functionality_test/medias2.png  used on input line 906.
+Package pdftex.def Info: images/functionality_test/medias2.png  used on input line 914.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/medias_1.png, id=485, 578.16pt x 1284.8pt>
+<images/functionality_test/medias_1.png, id=486, 578.16pt x 1284.8pt>
 File: images/functionality_test/medias_1.png Graphic file (type png)
 <use images/functionality_test/medias_1.png>
-Package pdftex.def Info: images/functionality_test/medias_1.png  used on input line 913.
+Package pdftex.def Info: images/functionality_test/medias_1.png  used on input line 921.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/medias_3.jpg, id=486, 578.16pt x 1284.8pt>
+<images/functionality_test/medias_3.jpg, id=487, 578.16pt x 1284.8pt>
 File: images/functionality_test/medias_3.jpg Graphic file (type jpg)
 <use images/functionality_test/medias_3.jpg>
-Package pdftex.def Info: images/functionality_test/medias_3.jpg  used on input line 920.
+Package pdftex.def Info: images/functionality_test/medias_3.jpg  used on input line 928.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 929.
-LaTeX Info: Redefining \% on input line 929.
+LaTeX Info: Redefining \. on input line 937.
+LaTeX Info: Redefining \% on input line 937.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1314,38 +1320,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.929   \item \textit
+l.937   \item \textit
                      {Entrada:} Datos completados en el formulario y comando...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.929   \item \textit
+l.937   \item \textit
                      {Entrada:} Datos completados en el formulario y comando...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.929   \item \textit
+l.937   \item \textit
                      {Entrada:} Datos completados en el formulario y comando... <./images/functionality_test/medias2.png> <./images/functionality_test/medias_1.png> <./images/functionality_test/medias_3.jpg>]
-<images/functionality_test/geodata_exporter1.png, id=498, 578.16pt x 1284.8pt>
+<images/functionality_test/geodata_exporter1.png, id=499, 578.16pt x 1284.8pt>
 File: images/functionality_test/geodata_exporter1.png Graphic file (type png)
 <use images/functionality_test/geodata_exporter1.png>
-Package pdftex.def Info: images/functionality_test/geodata_exporter1.png  used on input line 943.
+Package pdftex.def Info: images/functionality_test/geodata_exporter1.png  used on input line 951.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/geodata_exporter11.png, id=499, 578.16pt x 1284.8pt>
+<images/functionality_test/geodata_exporter11.png, id=500, 578.16pt x 1284.8pt>
 File: images/functionality_test/geodata_exporter11.png Graphic file (type png)
 <use images/functionality_test/geodata_exporter11.png>
-Package pdftex.def Info: images/functionality_test/geodata_exporter11.png  used on input line 950.
+Package pdftex.def Info: images/functionality_test/geodata_exporter11.png  used on input line 958.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
-<images/functionality_test/geodata_exporter2.png, id=500, 578.16pt x 1284.8pt>
+<images/functionality_test/geodata_exporter2.png, id=501, 578.16pt x 1284.8pt>
 File: images/functionality_test/geodata_exporter2.png Graphic file (type png)
 <use images/functionality_test/geodata_exporter2.png>
-Package pdftex.def Info: images/functionality_test/geodata_exporter2.png  used on input line 957.
+Package pdftex.def Info: images/functionality_test/geodata_exporter2.png  used on input line 965.
 (pdftex.def)             Requested size: 128.0387pt x 284.5193pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Info: Redefining \. on input line 962.
-LaTeX Info: Redefining \% on input line 962.
+LaTeX Info: Redefining \. on input line 970.
+LaTeX Info: Redefining \% on input line 970.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1355,18 +1361,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [38]
-<images/functionality_test/excel.jpg, id=505, 1145.4795pt x 545.03625pt>
+<images/functionality_test/excel.jpg, id=506, 1145.4795pt x 545.03625pt>
 File: images/functionality_test/excel.jpg Graphic file (type jpg)
 <use images/functionality_test/excel.jpg>
-Package pdftex.def Info: images/functionality_test/excel.jpg  used on input line 965.
+Package pdftex.def Info: images/functionality_test/excel.jpg  used on input line 973.
 (pdftex.def)             Requested size: 298.75264pt x 142.14685pt.
-<images/functionality_test/folder_medias.jpg, id=506, 483.0045pt x 148.75575pt>
+<images/functionality_test/folder_medias.jpg, id=507, 483.0045pt x 148.75575pt>
 File: images/functionality_test/folder_medias.jpg Graphic file (type jpg)
 <use images/functionality_test/folder_medias.jpg>
-Package pdftex.def Info: images/functionality_test/folder_medias.jpg  used on input line 972.
+Package pdftex.def Info: images/functionality_test/folder_medias.jpg  used on input line 980.
 (pdftex.def)             Requested size: 298.75264pt x 92.00969pt.
-LaTeX Info: Redefining \. on input line 978.
-LaTeX Info: Redefining \% on input line 978.
+LaTeX Info: Redefining \. on input line 986.
+LaTeX Info: Redefining \% on input line 986.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1379,30 +1385,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.978 
+l.986 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.978 
+l.986 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.978 
+l.986 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.978 
+l.986 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.978 
+l.986 
        <./images/functionality_test/geodata_exporter1.png> <./images/functionality_test/geodata_exporter11.png> <./images/functionality_test/geodata_exporter2.png> <./images/functionality_test/excel.jpg> <./images/functionality_test/folder_medias.jpg>]
-LaTeX Info: Redefining \. on input line 979.
-LaTeX Info: Redefining \% on input line 979.
+LaTeX Info: Redefining \. on input line 987.
+LaTeX Info: Redefining \% on input line 987.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1416,8 +1422,8 @@ Cap\'{\i }tulo 5.
 [41
 
 ]
-LaTeX Info: Redefining \. on input line 1002.
-LaTeX Info: Redefining \% on input line 1002.
+LaTeX Info: Redefining \. on input line 1010.
+LaTeX Info: Redefining \% on input line 1010.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1431,10 +1437,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 ] (introduccion.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
-LaTeX Info: Redefining \. on input line 13.
-LaTeX Info: Redefining \% on input line 13.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -1444,17 +1450,17 @@ Package rerunfilecheck Info: File `introduccion.out' has not changed.
 (rerunfilecheck)             Checksum: 60C3A71340C767AE2B6853003FE65AB0;5540.
  ) 
 Here is how much of TeX's memory you used:
- 15619 strings out of 474312
- 256250 string characters out of 5740701
+ 15627 strings out of 474312
+ 256484 string characters out of 5740701
  1945907 words of memory out of 5000000
- 37518 multiletter control sequences out of 15000+600000
+ 37526 multiletter control sequences out of 15000+600000
  615580 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,1951b,810s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Al/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on introduccion.pdf (43 pages, 2613636 bytes).
+Output written on introduccion.pdf (43 pages, 2663489 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
+ 602 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)
- 31149 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 31154 words of extra memory for PDF output out of 35830 (max. 10000000)
 
